@@ -1,0 +1,261 @@
+name,conference name,language,type,year,title,description,link
+Илья Климов,JavaScript fwdays,russian,,2018,JavaScript: День 4001-й,,https://youtu.be/jzaZlEOSwoA
+Сергей Бабич,JavaScript fwdays,ukranian,,2018,Як ангулярити на 5+,,https://youtu.be/dfJyrbk7PME
+Михаил Чурилов,JavaScript fwdays,russian,,2018,Front-end Microservices Architecture,,https://youtu.be/2r9KqASOSeM
+Андрей Листочкин,JavaScript fwdays,russian,,2018,"Time, Numbers, Text",,https://youtu.be/TFBCcNFEmDE
+Артем Яворский,JavaScript fwdays,russian,,2018,99 ways to take away your ugly polyfills,,https://youtu.be/pMMQYHiFX3w
+Олександр Скачков,JavaScript fwdays,russian,,2018,How to run WebAssembly in your React web application,,https://youtu.be/oicuETKQBkw
+Виталий Ратушный,JavaScript fwdays,russian,,2018,Vue: webcomponents,,https://youtu.be/Q3MOPhHR2Mk
+Екатерина Лизагубова,JavaScript fwdays,russian,,2018,React: дорога к просветлению,,https://youtu.be/STz1tr65ykE
+Антон Немцев,JavaScript fwdays,russian,,2018,Кодстайл и насилие,,https://youtu.be/qHIhWxHSi_0
+Martin Splitt,JavaScript fwdays,english,,2018,Creating virtual worlds in the browser,,https://youtu.be/0y2jXEUHvuk
+Владимир Заец,JavaScript fwdays,russian,,2018,GraphQL - новый взгляд на API,,https://youtu.be/zXUP4bNDxWo
+Никита Галкин,JavaScript fwdays,russian,,2018,Best practices and troubleshooting guide for node applications,,https://youtu.be/8HQ0IYanqFs
+Григорий Шехет,JavaScript fwdays,russian,,2018,Растим детей. Или как Иван Васильевич запускал эксперименты?,,https://youtu.be/7cnBuA0LAGg
+Noam Rosenthal,JavaScript fwdays,english,,2018,Frontend testing for Wix viewer: case study,,https://youtu.be/IYunRopn6fg
+Feross Aboukhadijeh,JavaScript fwdays,english,,2018,The Most Annoying Website,,https://youtu.be/EkpS1eWb2BA
+Елена Жукова,JavaScript fwdays,russian,,2018,Жизнь вне JavaScript,,https://youtu.be/gMWNlv6muNY
+Андрей Канунников,JavaScript fwdays,russian,,2018,600 секунд об async_hooks,,https://youtu.be/8ut7bRzj-vU
+Олександр Поштарук,JavaScript fwdays,russian,,2018,Use-case оператора replyWhen из Rx.JS,,https://youtu.be/d7zO9fzXbfM
+Сергей Мелашич,JavaScript fwdays,russian,,2018,Web Workers - добавьте производительности своим Web приложениям,,https://youtu.be/ctKmHO2yARY
+Jan Jongboom,JavaScript fwdays,english,,2018,JavaScript all the things,,https://youtu.be/tTPk0OdMCqM
+Martin Splitt,JavaScript fwdays,english,,2017,Progressive web apps with Polymer,,https://youtu.be/Jg36lCMDwiM
+Сергей Больщиков,JavaScript fwdays,russian,,2017,Create Architecture and not Frameworks,,https://youtu.be/LQ__LKsVD3o
+Никита Галкин,JavaScript fwdays,russian,,2017,Testing in Node.js World,,https://youtu.be/qmZyR9Ao-jY
+Ashley Williams,JavaScript fwdays,english,,2017,You Don't Know npm,,https://youtu.be/l_F9xqIdkzE
+Александр Трищенко,JavaScript fwdays,russian,,2017,How to improve Angular 2 performance?,,https://youtu.be/N_-g49yknyI
+Александра Калинина,JavaScript fwdays,russian,,2017,Trojan War: SinonJS,,https://youtu.be/xjC1mt1owZg
+Артем Яворский,JavaScript fwdays,russian,,2017,Compile like it's 2017,,https://youtu.be/y5FfZoaVJkI
+Emil Bayes,JavaScript fwdays,russian,,2017,Password Hashing,,https://youtu.be/OikFj0ZhecA
+Андрей Грачев,JavaScript fwdays,russian,,2017,Vue.js или как наконец отказаться от React,,https://youtu.be/x1ySbc-ocRg
+Mathias Buus,JavaScript fwdays,russian,,2017,Internet of Peers,,https://youtu.be/dnoR8QlP_PI
+Сергей Мелашич,JavaScript fwdays,russian,,2017,Настройка SEO для одностраничных web-приложений на Angular,,https://youtu.be/Nqw8HDXkqJ8
+Виталий Редько,JavaScript fwdays,russian,,2017,React + Redux: performance & scalability,,https://youtu.be/_9BDn1QeL4U
+Григорий Шехет,JavaScript fwdays,russian,,2017,Introduction in Reactive Programming with React,,https://youtu.be/oabeAEnRCcw
+Артем Денисов,JavaScript fwdays,russian,,2017,Improve your web application using Progressive Web Metrics,,https://youtu.be/2a4a2aDPk5w
+Александр Павлыщ,JavaScript fwdays,russian,,2017,CSS 5DX,,https://youtu.be/QxJKQNGIGec
+Илья Климов,JavaScript fwdays,russian,,2017,2017: Автостопом по галактике JavaScript,,https://youtu.be/aUdiwihn3hE
+Martin Splitt,JavaScript fwdays,english,,2016,Life of a pixel: Web rendering performance,,https://youtu.be/iLnL9H9F8i4
+Сергей Больщиков,JavaScript fwdays,russian,,2016,"Angular Components: все уже за, а вы еще нет?",,https://youtu.be/P55wbaLtsxQ
+Роман Якобчук,JavaScript fwdays,russian,,2016,Real-life React,,https://youtu.be/oEgaX2FgQgs
+Алексей Волков,JavaScript fwdays,russian,,2016,Интерактивные декларативные графики на React+D3,,https://youtu.be/v9Cn97vlvAU
+Алексей Распопов,JavaScript fwdays,russian,,2016,Будущее асинхронного программирования в ECMAScript,,https://youtu.be/UqyNRbrBwmk
+Юрий Дадычин,JavaScript fwdays,russian,,2016,JS Frameworks в перспективе проекта и бизнеса,,https://youtu.be/K7n41jqpoJ0
+Андрей Листочкин,JavaScript fwdays,russian,,2016,Bots. You may not need a UI,,https://youtu.be/R_EulCnzr8E
+Umar Hansa,JavaScript fwdays,english,,2016,DevTools an Animated Journey,,https://youtu.be/anQsp5zDN7w
+Michael North,JavaScript fwdays,english,,2016,"Ember.js 2 - Future-friendly ambitious apps, that scale!",,https://youtu.be/S2-ScXk0LoY
+Евгений Сафронов,JavaScript fwdays,russian,,2016,Angular 2. Quickstart,,https://youtu.be/bmSJlDCb7Qg
+Алексей Косинский,JavaScript fwdays,russian,,2016,ES6 - Just Do It,,https://youtu.be/hvBb-byDKao
+Алексей Швайка,JavaScript fwdays,russian,,2016,Bundling: you are doing it wrong,,https://youtu.be/6ys-MZsfCXI
+Никита Галкин,JavaScript fwdays,russian,,2016,Spec driven development in Microservices,,https://youtu.be/3yCwFly5jyM
+Михаил Бондарчук,JavaScript fwdays,russian,,2016,Acceptance Testing in NodeJS: Tools & Approaches,,https://youtu.be/N7OeUh6a3cs
+Елена Жукова,JavaScript fwdays,russian,,2016,Native JavaScript на мобильных устройствах,,https://youtu.be/BR_NVjBF0bk
+Денис Яремов,JavaScript fwdays,russian,,2016,Offline-first приложение на Reflex,,https://youtu.be/3tctuhfHg28
+Максим Климишин,JavaScript fwdays,russian,,2016,Борьба с асинхронностью в JS,,https://youtu.be/TTBbmtg-hEU
+Тарас Товченко,JavaScript fwdays,russian,,2014,Making games using JavaScript and Cocos2d,,https://youtu.be/xDKSp1l5RR4
+Тимур Шемсединов,JavaScript fwdays,russian,,2014,Примеры быстрой разработки API на масштабируемом сервера приложений,,https://youtu.be/f6McffaVq78
+Юлия Пучкина,JavaScript fwdays,russian,,2014,Жирная анимация с Pixi js,,https://youtu.be/Q5tf38DATBM
+Максим Климишин,JavaScript fwdays,russian,,2014,Как бежать быстрее с react js,,https://youtu.be/ZOeo7jXSaXE
+Андрей Листочкин,JavaScript fwdays,russian,,2014,Ember js: ответ на почти все вопросы,,https://youtu.be/cXb1aFczAbo
+Анна Хабибуллина,JavaScript fwdays,russian,,2014,В поисках качества JavaScript кода,,https://youtu.be/edOIMiQFZ2w
+Александр Соловьев,JavaScript fwdays,russian,,2014,Как писать UI без боли,,https://youtu.be/l4mmMsAVjzk
+Андрей Листочкин,JavaScript fwdays,russian,,2015,Frameworks in 2015,,https://youtu.be/AKUH31PgJog
+Jan Jongboom,JavaScript fwdays,english,,2015,Fun with JavaScript and sensors,,https://youtu.be/2GmI6AFk_RQ
+Алексей Коваленко,JavaScript fwdays,russian,,2015,Немного о функциональном программирование в JavaScript,,https://youtu.be/P3oKH1ylecI
+Юлия Пучкина,JavaScript fwdays,russian,,2015,Использование компонентной архитектуры в веб-приложениях,,https://youtu.be/fwlNqJudtHk
+Андрей Шумада,JavaScript fwdays,ukranian,,2015,How to deploy to production 10 times a day,,https://youtu.be/rHyH2O-BVe4
+Виктор Зозуляк,JavaScript fwdays,ukranian,,2015,Unit testing in AngularJS,,https://youtu.be/zXxlvrVDkcg
+Евгений Жарков,JavaScript fwdays,russian,,2015,Angular 2: Всех переиграл,,https://youtu.be/9xGGxjdvGiI
+Артем Тритяк,JavaScript fwdays,russian,,2015,Backbone React Flux,,https://youtu.be/x09eqFCkhwM
+Tero Parviainen,JavaScript fwdays,english,,2015,Inside The AngularJS Directive Compiler,,https://youtu.be/jIo5UmA5cGg
+Максим Климишин,JavaScript fwdays,russian,,2015,Изоморфная разработка на javascript с помощью react.js,,https://youtu.be/Qd9ErzUk10g
+Екатерина Божкова,JavaScript fwdays,russian,,2015,Фриланс - выход за рамки. Перспектива для IT-талантов,,https://youtu.be/EkLtbSTaUX4
+Эльдар Джафаров,JavaScript fwdays,russian,,2015,The Grail: React based Isomorph apps framework,,https://youtu.be/qff78f5jk1c
+Владимир Агафонкин,JavaScript fwdays,russian,,2015,Как работают современные интерактивные карты на WebGL,,https://youtu.be/u2ppZYvpeb4
+Александр Соловьев,JavaScript fwdays,russian,,2013,Functional Reactive Programming & ClojureScript,,https://youtu.be/R4sTvHXkToQ
+Андрей Листочкин,JavaScript fwdays,russian,,2013,"Knockout: как, зачем, почему",,https://youtu.be/KfZKz1jbjsg
+Павел Паномаренко,JavaScript fwdays,russian,,2013,AtomJS и LibCanvas,,https://youtu.be/d-qO7v0lT-U
+Денис Радин,JavaScript fwdays,russian,,2013,Native look and feel of mobile JS interfaces with HTML5 canvas,,https://youtu.be/r1DD1Ut37BE
+Владимир Агафонкин,JavaScript fwdays,russian,,2013,Создание интерактивных карт с Leaflet,,https://youtu.be/5HPRc1oHpp4
+Павел Юрийчук,JavaScript fwdays,russian,,2013,"Опыт разраб. моб. веб приложения с использованием Backbone.js, Require.js, Zepto.js",,https://youtu.be/IG0bA0rig80
+Егор Львовский,JavaScript fwdays,russian,,2013,Amazing UI with CSS and Anima.js,,https://youtu.be/1-4BgKec090
+Андрей Геоня,JavaScript fwdays,russian,,2013,Интерактивные слои API карт 2GIS,,https://youtu.be/FpgpleHtRqg
+Павел Паномаренко,JavaScript fwdays,russian,,2013,AtomJS,,https://youtu.be/jMcbNj8yK9Y
+Максим Григорян,JavaScript fwdays,russian,,2013,Использование crossroads.js для маршрутизации на фронтенде,,https://youtu.be/BrLXvoTCiuQ
+Владимир Агафонкин,JavaScript fwdays,russian,,2013,About Opensource,,https://youtu.be/sJPYcQhuN4M
+Андрей Листочкин,JavaScript fwdays,russian,,2013,nockoutJS and Anima.js,,https://youtu.be/y5K0fJ6gbMc
+Сергей Больщиков,Angular & React Frameworks Day,russian,,2015,Protractor Tips & Tricks,,https://youtu.be/eXbonBPeros
+Сергей Жолудев,Angular & React Frameworks Day,russian,,2015,Preparing your Angular 1 code for Angular 2,,https://youtu.be/V_C0_Vz64lY
+Андрей Листочкин,Angular & React Frameworks Day,russian,,2015,Следим за Ember,,https://youtu.be/DCtdg357n-Y
+Роман Якобчук,Angular & React Frameworks Day,russian,,2015,React for Universal Apps,,https://youtu.be/t3V5i9a3-3E
+Евгений Жарков,Angular & React Frameworks Day,russian,,2015,AngularJS: Good parts,,https://youtu.be/E_1KpYZtWbs
+Алексей Волков,Angular & React Frameworks Day,russian,,2015,Введение в React Native,,https://youtu.be/ciyzuckUejs
+Александр Соловьев,Angular & React Frameworks Day,russian,,2015,Как modnaKasta трансформировалась,,https://youtu.be/WssdWSbAPKE
+Mike MacCana,OdessaJS,english,,2018,Deploying your JS app in 2018,,https://youtu.be/8QJq4_k0oTQ
+Eyal Eizenberg,OdessaJS,english,,2018,The Psychology of building your first open source,,https://youtu.be/n2hYH87nzSA
+Александр Хохлов,OdessaJS,russian,,2018,Do not chase the hype train. Just steal ideas,,https://youtu.be/LVfmF1L6dGY
+Аркадий Пилгук,OdessaJS,russian,,2018,Real-world application of computer vision and machine,,https://youtu.be/tBkHbUbB5sg
+Андрей Кучеренко,OdessaJS,russian,,2018,Copy paste detector for 150+ languages on JavaScript,,https://youtu.be/3wNEY6x5bIs
+Андрей Михайлюк,OdessaJS,russian,,2018,"Excuse me, I have to assemble Frontend",,https://youtu.be/lqzzn4Z3krY
+Rowdy Rabouw,OdessaJS,english,,2018,Unleash your web skills on native,,https://youtu.be/UVnlSuw1jac
+Gerard Sans,OdessaJS,english,,2018,Advanced State Management using ngrx v6,,https://youtu.be/J3p2eO-ziBQ
+Eyal Eizenberg,OdessaJS,english,,2018,Redux-cornell,,https://youtu.be/LmhtTzY3nms
+Денис Довгань,OdessaJS,ukranian,,2018,Automating GitHub workflow with probot,,https://youtu.be/b6S-TTFhSI0
+Ксения Редунова,OdessaJS,russian,,2018,Estimates: is there a silver bullet?,,https://youtu.be/FQzFFmGMID8
+Алексей Мигуцкий,OdessaJS,russian,,2018,Architecture evolution of Microsoft To-Do web app,,https://youtu.be/BcyGEIhBZSE
+David Kopal,OdessaJS,english,,2018,Unleash the power of the higher-order components,,https://youtu.be/P-3Oxb0nA5A
+Ivan Jovanovic,OdessaJS,english,,2018,Serverless - the way microservices should be,,https://youtu.be/aGbAUo7HC_0
+Nik Graf,OdessaJS,english,,2018,Get started with Reason and ReasonReact,,https://youtu.be/BVAzYl-4vQ4
+Олег Черный,OdessaJS,russian,,2018,Cloud Native Observability,,https://youtu.be/0VNcynPLgfo
+Денис Радин,OdessaJS,russian,,2018,Making great event is the goal,,https://youtu.be/NSVfZ_Oujx8
+Александра Шинкевич,OdessaJS,russian,,2018,Get prepared for your performance...,,https://youtu.be/nsaF4VFnCz0
+Никита Дубко,OdessaJS,russian,,2018,Get prepared for your performance...,,https://youtu.be/nsaF4VFnCz0
+Александр Труш,OdessaJS,russian,,2018,The existential crisis in a blockchain era,,https://youtu.be/cJPpyFfTFXI
+Михаил Зачепило,OdessaJS,russian,,2018,WebAssembly powered Machine Learning,,https://youtu.be/59dozr-XC-A
+Филипп Фурпик,OdessaJS,russian,,2018,OK Google. What's next?,,https://youtu.be/ABYnHK8h7VQ
+Юрий Шерстюк,OdessaJS,russian,,2018,Algorithms in Front End: from V8 to VDOM,,https://youtu.be/sFZX00-1t9E
+Тимофей Лавренюк,OdessaJS,russian,,2018,How to make web-applications more native and a user happier...,,https://youtu.be/wklnEN-zzMI
+Сергей Бабич,OdessaJS,urkanian,,2018,How I decided to create a project using only Web Components without any framework,,https://youtu.be/SFZJeO0_k8I
+Patrick Kettner,OdessaJS,english,,2018,JavaScript without javascript,,https://youtu.be/QJM538gMc7M
+Никита Дубко,OdessaJS,russian,,2018,Houdini - CSS which is JavaScrip,,https://youtu.be/MPaD8N9BrFA
+Henning Muszynski,OdessaJS,english,,2018,The ABC of Coded Style Guides,,https://youtu.be/gTjTTnCIG1o
+Илья Иванов,OdessaJS,russian,,2018,Advanced React-Native,,https://youtu.be/r3RXPLZ473A
+Денис Радин,OdessaJS,russian,,2018,"Mining crypto in browser_ GPU, WebAssembly and all the good things to try",,https://youtu.be/ubvMN_IC8wc
+Gabriel Mičko,OdessaJS,english,,2018,WebRTC talk for OdessaJS,,https://youtu.be/10g_krBzymQ
+Haroen Viaene,OdessaJS,english,,2018,You’re probably making an API client,,https://youtu.be/Tj1LcjzdVBM
+Валентин Бармашин,OdessaJS,russian,,2018,"RxJS in React, RxJS in Angular and why we all should be friends",,https://youtu.be/Ix9r6iFCk3w
+Ivan Jovanovic,OdessaJS,english,,2018,Introduction to Micro Frontends,,https://youtu.be/hNqruwzdT4Q
+Леонид Байда,OdessaJS,urkanian,,2018,Flow typing: your path from experiments to final...,,https://youtu.be/aEcTnCchHFY
+Олександр Скачков,OdessaJS,russian,,2018,WebAssembly vs JavaScript: What is faster?,,https://youtu.be/yhyGVx4qqLM
+Роман Савицкий,OdessaJS,russian,,2018,Chrome Dev Tools. New & Tips,,https://youtu.be/9rrjV5T5md4
+Валерий Сорокобатько,OdessaJS,russian,,2018,Passing strings using (in)finite-state-machine and prepack,,https://youtu.be/0LCVzgQu4Xs
+Patrick Kettner,OdessaJS,english,,2018,Creating magic with houdini,,https://youtu.be/WG14sHR3fH4
+Радослав Станков,OdessaJS,english,,2018,React Refactoring Patterns,,https://youtu.be/bb9Qbybcr64
+Александра Шинкевич,OdessaJS,russian,,2018,Development standards: a step-by-step guide to implement it without pain,,https://youtu.be/Bf2ZUsBdCn4
+Asim Hussain,OdessaJS,english,,2018,How to scale an SPA to 1M views for $1?,,https://youtu.be/z2WkmCeXdOo
+Виктор Турский,OdessaJS,russian,,2018,How to create a VR application with React,,https://youtu.be/lrjRZc2YVG4
+Иван Гончаров,OdessaJS,urkanian,,2018,W.T.F. is GraphQL?,,https://youtu.be/XkTPAY2gsNo
+Денис Артюхович,OdessaJS,russian,,2018,Evolution of Web Performance,,https://youtu.be/gNw1g_yib4Q
+Артем Захарченко,OdessaJS,russian,,2018,What happens when you don't write the code...,,https://youtu.be/jwRSMbaArj4
+Денис Стоянов,OdessaJS,russian,,2016,Rx.js пожоще,,https://youtu.be/Tguv7h3rnQE
+Вячеслав Слинько,OdessaJS,russian,,2016,"Relay internals, such as cache algorithm, garbage collector, algorithm of applying optimistic updates",,https://youtu.be/mOD5nFc-_ek
+Вадим Макеев,OdessaJS,russian,,2016,Можно вообще всё. Раскладка по гриду,,https://youtu.be/VndU9asBYmc
+Артем Тритяк,OdessaJS,russian,,2016,Data fetching в React.js,,https://youtu.be/q2uIJOrEXuQ
+Алексей Мигуцкий,OdessaJS,russian,,2016,Ребрендинг в продакшене,,https://youtu.be/gfO2i9p8XSo
+Александр Завьялов,OdessaJS,russian,,2016,"Пишем код, тягаем штангу",,https://youtu.be/QvOpA1ZgRqQ
+Martin Naumann,OdessaJS,english,,2016,"WebGL, basic computer graphics for frontend devs",,https://youtu.be/9VvMFz0-DKE
+Виктор Грищенко,OdessaJS,russian,,2016,Sync: rocket science explained,,https://youtu.be/vBmPjWbB2Zs
+Сергей Поплавский,OdessaJS,russian,,2016,IoT Real time dashboards with signalR,,https://youtu.be/1pkzx0Cs8iE
+Андрей Кучеренко,OdessaJS,russian,,2016,SmartHouse & IoT,,https://youtu.be/51I9ljAWVkg
+Алексей Орленко,OdessaJS,russian,,2016,"Об оверхеде, который вас убивает",,https://youtu.be/LYqhH2Rk-K4
+Анна Орлова,OdessaJS,russian,,2016,Как подготовиться к собеседованию в ИТ-компанию,,https://youtu.be/egeMl5jisaI
+Александр Труш,OdessaJS,russian,,2016,Elm: functional programming in your browser,,https://youtu.be/hxCjNLsg2j4
+Дмитрий Тинитилов,OdessaJS,russian,,2016,Progressive Web Apps,,https://youtu.be/e7rbmgZM9b8
+Денис Зайченко,OdessaJS,russian,,2016,Angular 2 Universe,,https://youtu.be/_OFTSRFw7K4
+Дмитрий Гусев,OdessaJS,russian,,2016,Node.js вширь и вглубь,,https://youtu.be/NZCXrSnpEfs
+Дмитрий Малеев,OdessaJS,russian,,2016,"Архитектура, или как мы куда-то не туда пошли",,https://youtu.be/UtqU8geTQ0I
+Николай Кожухаренко,OdessaJS,russian,,2016,Koa.js as an alternative to Express,,https://youtu.be/MFh4YOV5Zj4
+Юрий Шевцов,OdessaJS,russian,,2016,Internet of things в офисе,,https://youtu.be/7LGrDbZ3Kh8
+Александр Лябах,OdessaJS,russian,,2016,What professionals can learn from coding games?,,https://youtu.be/00_UFw0elIY
+Ингвар Степанян,OdessaJS,russian,,2016,Intro to Optimizing Compilers,,https://youtu.be/9EhZJ8nx__c
+Филипп Фурпик,OdessaJS,russian,,2016,Offline first in React Native and Redux,,https://youtu.be/SSt_9HxVHf0
+Сергей Рубанов,OdessaJS,russian,,2016,Что не так с web и как с этим жить,,https://youtu.be/qUxpEeI5vw8
+Николай Беличук,OdessaJS,russian,,2016,Карты и картографические сервисы,,https://youtu.be/b_wnjn1iWEQ
+Ксения Редунова,OdessaJS,russian,,2016,"ECMAScript: past, present and future",,https://youtu.be/PK1xM1yqXpM
+Кирилл Яковенко,OdessaJS,russian,,2016,Стринги,,https://youtu.be/WX-I3lyiUGE
+Андрей Кучеренко,OdessaJS,russian,,2015,Connect physical world to the Internet with JavaScript,,https://youtu.be/zwZNaj998tg
+Максим Крячко,OdessaJS,russian,,2015,Connect physical world to the Internet with JavaScript,,https://youtu.be/zwZNaj998tg
+Юлия Пшинко,OdessaJS,russian,,2015,12 ошибок Frontend разработчика или как оптимизировать готовый продукт,,https://youtu.be/VLbFbU488kI
+Сергей Бережной,OdessaJS,russian,,2015,Мастер-класс: строим сервис по БЭМ,,https://youtu.be/9VvmzwljkdM
+Николай Беличук,OdessaJS,russian,,2015,Front-end Security,,https://youtu.be/4mldBI_xSPw
+Андрей Кучеренко,OdessaJS,russian,,2015,Разработка через тестирование на Javascript,,https://youtu.be/UEDGvBmrgJ0
+Тимур Шемсединов,OdessaJS,russian,,2015,Как исправить ошибку в NodeJS и нечаянно поднять производительность в 2 раза,,https://youtu.be/Q8ohKdYrpRA
+Ксения Редунова,OdessaJS,russian,,2015,Marionette. Shall we dance?,,https://youtu.be/O0VsEq2GsHA
+Дмитрий Малеев,OdessaJS,russian,,2015,"Учи разные языки! Будь мужиком, Карл",,https://youtu.be/NdU1DrcrsdY
+Вячеслав Ворончук,OdessaJS,russian,,2015,Структура проекта и разработка модулей на Meteor.js,,https://youtu.be/0ZoYNt8xGj4
+Виктор Зозуляк,OdessaJS,russian,,2015,Service Worker - Bringing Native App Experience To Web Apps,,https://youtu.be/Zo5leNzBbOc
+Андрей Пазняк,OdessaJS,russian,,2015,Применяем однонаправленный поток данных за пределами экосистемы ReactJS,,https://youtu.be/fSpwFiwRYME
+Евгений Обрезков,OdessaJS,russian,,2015,"Как устроен NodeJS (V8, libuv, async, bindings)",,https://youtu.be/yKU6K1i5i6o
+Маргарита Остапчук,OdessaJS,russian,,2015,Сила JS в облаке Azure,,https://youtu.be/wBKr4J5an5E
+Илья Касьяненко,OdessaJS,russian,,2015,WebRTC - real-tim​e communications,,https://youtu.be/fOthkw5lp2Q
+Алексей Швайка,OdessaJS,russian,,2015,Chrome internals & rendering performance,,https://youtu.be/FZwmEb4H5ew
+Артем Захарченко,OdessaJS,russian,,2015,"Пацаны, го в бекграунд",,https://youtu.be/B6gSYKKgus4
+Андрей Листочкин,OdessaJS,russian,,2015,Ember+Redux - вместе веселей,,https://youtu.be/wqt_kyrumfM
+Артем Тритяк,OdessaJS,russian,,2015,React Native,,https://youtu.be/G74sB7OXliQ
+Филипп Фурпик,OdessaJS,russian,,2015,React Native & Reflux,,https://youtu.be/sR2cwJXNNq4
+Алексей Распопов,OdessaJS,russian,,2015,First-class programming,,https://youtu.be/RoUt1V9MYzo
+Илья Сегеда,OdessaJS,russian,,2015,"React, Flux и правильные абстракции",,https://youtu.be/hrt8ceKCMvg
+Сергей Татаринцев,OdessaJS,russian,,2014,Тестирование CSS-регрессий с Gemini,,https://youtu.be/k0RDoEBqeU8
+Максим Климишин,OdessaJS,russian,,2014,Javascript и иновации,,https://youtu.be/qTm6wgCVGlQ
+Андрей Листочкин,OdessaJS,russian,,2014,Секретный доклад,,https://youtu.be/4t6c7G7gjTI
+Дмитрий Тарасенко,OdessaJS,russian,,2014,Javascript Quest,,https://youtu.be/0xN8dYmYJFU
+Вадим Рубан,OdessaJS,russian,,2014,Building realtime,,https://youtu.be/4o9InQSWnbw
+Антон Яценко,OdessaJS,russian,,2014,There is no View we are looking for,,https://youtu.be/u11yWeTuPfc
+Эльдар Джафаров,OdessaJS,russian,,2014,Node js Practical Guide,,https://youtu.be/NW8xjOc0_uU
+Дмитрий Охрименко,OdessaJS,russian,,2014,Асинхронное программирование Deferred и Promises,,https://youtu.be/6iRO2NPmxMs
+Андрей Кучеренко,OdessaJS,russian,,2014,Java Script и качество кода,,https://youtu.be/b3YT6-6egVM
+Эльдар Джафаров,OdessaJS,russian,,2014,React JS Паттерны разработки,,https://youtu.be/30Ip4N7o9u8
+Ингвар Степанян,OdessaJS,russian,,2014,Что то про трансформацию JS,,https://youtu.be/2rOUDjM9kBA
+Александр Бойченко,OdessaJS,russian,,2014,Производительность Client Side,,https://youtu.be/NickLGiKjZo
+Валентин Шибанов,OdessaJS,russian,,2014,Angular JS at enterprise,,https://youtu.be/Q56FtS0OzuA
+Артем Тритяк,OdessaJS,russian,,2014,Что-то о юнит тестировании,,https://youtu.be/Pg45eGbicFk
+Ксения Редунова,OdessaJS,russian,,2014,Визуализируем стильно с D3 js,,https://youtu.be/JjHwPIF1xwE
+Андрей Листочкин,OdessaJS,russian,,2014,Ember js Назад в будущее,,https://youtu.be/yIIdnEDtgiU
+Иван Стеценко,ChernivtsiJS,russian,,2016,React: Yet another awsm Van Helsing,,https://youtu.be/qf4inu-IZho
+Андрей Костецкий,ChernivtsiJS,ukranian,,2016,JavaScript Reflection: Що далі?,,https://youtu.be/FPIw8U33Lmo
+Денис Довгань,ChernivtsiJS,ukranian,,2016,Shells written in JavaScript,,https://youtu.be/lfsMW8cXVZc
+Иван Стеценко,ChernivtsiJS,russian,,2016,Давайте сделаем МІТ в Украине,,https://youtu.be/fw3QSwrFNz4
+Сергей Борейко,ChernivtsiJS,ukranian,,2016,Nothing new about Electron,,https://youtu.be/0FpqKS3KYsw
+Алексей Швайка,ChernivtsiJS,russian,,2016,Authoring web components workshop,,https://youtu.be/wfoO1MNoXsU
+Александр Лапшин,ChernivtsiJS,russian,,2017,Peg.js and writing custom grammar parser,,https://youtu.be/N5b1PhV5uXM
+Владимир Стельмах,ChernivtsiJS,russian,,2017,"Мобильные приложения на JS. Как, зачем, почему бы и нет?",,https://youtu.be/AzCJ85gvxKU
+Андрей Костецкий,ChernivtsiJS,ukranian,,2017,Програмування мікроконтроллерів на JavaScript,,https://youtu.be/W87BWO31Diw
+Артем Яворский,ChernivtsiJS,russian,,2017,How to keep node_modules huge with Babel,,https://youtu.be/tmEWfrQhea8
+Татьяна Сахарова,ChernivtsiJS,russian,,2017,Как начать использовать современные технологии на legacy-проекте,,https://youtu.be/H8ffNFP9cu0
+Антон Немцев,ChernivtsiJS,russian,,2017,Что нам стоит дом построить,,https://youtu.be/stdZDiUfWH8
+Роман Лютиков,ChernivtsiJS,russian,,2017,Optimizing Compilers,,https://youtu.be/JHlT6kwDuUU
+Игорь Зенич,ChernivtsiJS,russian,,2017,Bootstrap: как правильно и что нового в 4-ке,,https://youtu.be/zJJka2Z9r5I
+Алексей Швайка,ChernivtsiJS,russian,,2017,Shipping new RegExp features,,https://youtu.be/-T2c0GVmn-o
+Кирилл Яковенко,ChernivtsiJS,russian,,2017,Styles in the world of components,,https://youtu.be/HIwDrTKo_08
+Антон Яценюк,ChernivtsiJS,ukranian,,2018,How to adopt a project with stack which you don't know,,https://youtu.be/N7Jcnd9n8m8
+Aleksandar Simovic,ChernivtsiJS,english,,2018,Serverless for frontend developers,,https://youtu.be/4xLis-ca4QY
+Vasilika Klimova,ChernivtsiJS,english,,2018,This terrible word Deadline,,https://youtu.be/LLGUAyWZhjc
+Илья Климов,ChernivtsiJS,russian,,2018,Как React-Native перевернул наше представление о нативных приложениях,,https://youtu.be/99Z9Q6jHfhg
+Анастасия Недбайло,ChernivtsiJS,russian,,2018,Angular applications with Redux,,https://youtu.be/mMdHbr5aw0o
+Терри Сагайдак,ChernivtsiJS,ukranian,,2018,Life with Expo.io,,https://youtu.be/mn6bDJ4w9mI
+Сергей Рубанов,ChernivtsiJS,russian,,2018,Просто о WebAssembly,,https://youtu.be/anVHSZtJhfc
+Елена Жукова,ChernivtsiJS,russian,,2018,О дивный новый JS–мир,,https://youtu.be/uNKuJANi4RU
+Антон Немцев,ChernivtsiJS,russian,,2018,Make checkout great again,,https://youtu.be/EZofZgflsDk
+Алексей Мигуцкий,OdessaJS,russian,,2013,Автоматизируй,,https://youtu.be/SIyjLRi2CH0
+Алик Духно,OdessaJS,russian,,2013,Производительный JavaScript,,https://youtu.be/IdK-JBkOunQ
+Андрей Листочкин,OdessaJS,russian,,2013,NodeJS - за гранью здравого смысла,,https://youtu.be/7kESAf-jXY8
+Александр Соловьев,OdessaJS,russian,,2013,FRP & ClojureScript,,https://youtu.be/H6LClcuQ7A8
+Артем Захарченко,OdessaJS,russian,,2013,"JS scalable architecture. Kernel, ScallApp, Aura",,https://youtu.be/UXl05PChEAw
+Дмитрий Миндра,OdessaJS,russian,,2013,TypeScript ннада?,,https://youtu.be/A745198_1FQ
+Эльдар Джафаров,OdessaJS,russian,,2013,Your project tested. nodejs,,https://youtu.be/LWX8kQ4bvas
+Егор Львовский,OdessaJS,russian,,2013,"Dart, в яблочко",,https://youtu.be/K4uKvU_aQXY
+Вячеслав Потравный,OdessaJS,russian,,2013,ChaplinJS или чего нам не хватает в Backbone,,https://youtu.be/0-CxgPLHs3Q
+Алексей Швайка,KharkivJS,russian,,2015,Web Animations tomorrow,,https://youtu.be/BFyxf4-PpvI
+Сергей Рубанов,KharkivJS,russian,,2015,WebAssembly,,https://youtu.be/eWF_1nMM5Yo
+Андрей Вандакуров,KharkivJS,russian,,2015,Javascript debugging Know your enemy,,https://youtu.be/yC43rba4VOg
+Александр Рысенко,KharkivJS,russian,,2015,Обнаружение сервисов в nodejs,,https://youtu.be/jlFAZn0Mk2E
+Денис Кузин,KharkivJS,russian,,2015,Интеграция режима одновременной работы в действующий проект,,https://youtu.be/q-Uqb3cAgjA
+Александр Лапшин,KharkivJS,russian,,2015,Лабиринты и JS — потому что не могу,,https://youtu.be/jhuAJoBg7js
+Максим Климишин,KharkivJS,russian,,2015,Reliable systems with unreliable components,,https://youtu.be/AnJzUreK-Xc
+Владимир Воевидка,KharkivJS,ukranian,,2015,How Browser Works?,,https://youtu.be/DPqTnBZx5fc
+Георгий Подсветов,KharkivJS,russian,,2015,Decomposition of JavaScript engineer,,https://youtu.be/sh0vLXNPW2Y
+Вячеслав Слинько,KharkivJS,russian,,2015,Relay и Falcor — будущее?,,https://youtu.be/bpn8u7KYMSg
+Кирилл Яковенко,KharkivJS,russian,,2015,The amazing universe of components,,https://youtu.be/QE8wnZ1SbOs
+Юрий Лучанинов,KharkivJS,russian,,2015,Немного о js приложениях на мобильных устройствах,,https://youtu.be/ZDH_N0bdDrM
+Артем Бей,KharkivJS,russian,,2015,"REST Level 3, HATEOAS, JSON API",,https://youtu.be/MmyvNUAnI64
+Илья Сегеда,KharkivJS,russian,,2015,Почему Реакт и Флюкс это хорошо,,https://youtu.be/zUWn_WSNHBY
+Андрей Гершун,KharkivJS,russian,,2015,Компиляторы,,https://youtu.be/wabHD8fZUmw
+Андрей Листочкин,KharkivJS,russian,,2015,Anti hype как не гнаться за технологиями и начать жить,,https://youtu.be/xPFRUM_oDKA
+Эльдар Джафаров,KharkivJS,russian,,2015,Promise Pipe,,https://youtu.be/_HoOYqpTAlM
+Ярослав Сергеев,KharkivJS,russian,,2015,Как Webpack сделал меня счастливее,,https://youtu.be/rKd23pit8Xw
+Валерий Сорокобатько,KharkivJS,russian,,2015,ES6 Angular flow,,https://youtu.be/-p8ZrC6-GkI
+Евгений Обрезков,KharkivJS,russian,,2015,Готовим REST API со скоростью BaaS,,https://youtu.be/utn7pL0nUiM
+Илья Климов,KharkivJS,russian,,2015,"Nashorn, SquirellFish, v8, ускоряем зоопарк",,https://youtu.be/tXfSQL3RkPQ
+Виктор Турский,KharkivJS,russian,,2015,Боль и радость создания изоморфных приложений на ReactJS,,https://youtu.be/eLNvsvNZKX8
+Алексей Ященко,KharkivJS,russian,,2015,Frontend monitoring at Grammarly data driven solution for quality control of frontend products,,https://youtu.be/FVDQUzq8g7o
+Антон Яценко,KharkivJS,russian,,2015,15 лет Frontend'а,,https://youtu.be/oEwhRvh-o6M
