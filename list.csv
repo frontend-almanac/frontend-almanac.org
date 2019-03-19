@@ -112,7 +112,7 @@ Nik Graf,OdessaJS,english,,2018,Get started with Reason and ReasonReact,,https:/
 Никита Дубко,OdessaJS,russian,,2018,Get prepared for your performance...,,https://youtu.be/nsaF4VFnCz0
 Александр Труш,OdessaJS,russian,,2018,The existential crisis in a blockchain era,,https://youtu.be/cJPpyFfTFXI
 Михаил Зачепило,OdessaJS,russian,,2018,WebAssembly powered Machine Learning,,https://youtu.be/59dozr-XC-A
-Филипп Фурпик,OdessaJS,russian,,2018,OK Google. What's next?,,https://youtu.be/ABYnHK8h7VQ
+Филипп Шурпик,OdessaJS,russian,,2018,OK Google. What's next?,,https://youtu.be/ABYnHK8h7VQ
 Юрий Шерстюк,OdessaJS,russian,,2018,Algorithms in Front End: from V8 to VDOM,,https://youtu.be/sFZX00-1t9E
 Тимофей Лавренюк,OdessaJS,russian,,2018,How to make web-applications more native and a user happier...,,https://youtu.be/wklnEN-zzMI
 Сергей Бабич,OdessaJS,urkanian,,2018,How I decided to create a project using only Web Components without any framework,,https://youtu.be/SFZJeO0_k8I
@@ -158,7 +158,7 @@ Martin Naumann,OdessaJS,english,,2016,"WebGL, basic computer graphics for fronte
 Юрий Шевцов,OdessaJS,russian,,2016,Internet of things в офисе,,https://youtu.be/7LGrDbZ3Kh8
 Александр Лябах,OdessaJS,russian,,2016,What professionals can learn from coding games?,,https://youtu.be/00_UFw0elIY
 Ингвар Степанян,OdessaJS,russian,,2016,Intro to Optimizing Compilers,,https://youtu.be/9EhZJ8nx__c
-Филипп Фурпик,OdessaJS,russian,,2016,Offline first in React Native and Redux,,https://youtu.be/SSt_9HxVHf0
+Филипп Шурпик,OdessaJS,russian,,2016,Offline first in React Native and Redux,,https://youtu.be/SSt_9HxVHf0
 Сергей Рубанов,OdessaJS,russian,,2016,Что не так с web и как с этим жить,,https://youtu.be/qUxpEeI5vw8
 Николай Беличук,OdessaJS,russian,,2016,Карты и картографические сервисы,,https://youtu.be/b_wnjn1iWEQ
 Ксения Редунова,OdessaJS,russian,,2016,"ECMAScript: past, present and future",,https://youtu.be/PK1xM1yqXpM
@@ -182,7 +182,7 @@ Martin Naumann,OdessaJS,english,,2016,"WebGL, basic computer graphics for fronte
 Артем Захарченко,OdessaJS,russian,,2015,"Пацаны, го в бекграунд",,https://youtu.be/B6gSYKKgus4
 Андрей Листочкин,OdessaJS,russian,,2015,Ember+Redux - вместе веселей,,https://youtu.be/wqt_kyrumfM
 Артем Тритяк,OdessaJS,russian,,2015,React Native,,https://youtu.be/G74sB7OXliQ
-Филипп Фурпик,OdessaJS,russian,,2015,React Native & Reflux,,https://youtu.be/sR2cwJXNNq4
+Филипп Шурпик,OdessaJS,russian,,2015,React Native & Reflux,,https://youtu.be/sR2cwJXNNq4
 Алексей Распопов,OdessaJS,russian,,2015,First-class programming,,https://youtu.be/RoUt1V9MYzo
 Илья Сегеда,OdessaJS,russian,,2015,"React, Flux и правильные абстракции",,https://youtu.be/hrt8ceKCMvg
 Сергей Татаринцев,OdessaJS,russian,,2014,Тестирование CSS-регрессий с Gemini,,https://youtu.be/k0RDoEBqeU8
@@ -259,3 +259,125 @@ Vasilika Klimova,ChernivtsiJS,english,,2018,This terrible word Deadline,,https:/
 Виктор Турский,KharkivJS,russian,,2015,Боль и радость создания изоморфных приложений на ReactJS,,https://youtu.be/eLNvsvNZKX8
 Алексей Ященко,KharkivJS,russian,,2015,Frontend monitoring at Grammarly data driven solution for quality control of frontend products,,https://youtu.be/FVDQUzq8g7o
 Антон Яценко,KharkivJS,russian,,2015,15 лет Frontend'а,,https://youtu.be/oEwhRvh-o6M
+Евгений Обрезков,KharkivJS,russian,,2016,How does V8 optimize JavaScript code,,https://youtu.be/wwt6LDEeTfM
+Алексей Швайка,KharkivJS,russian,,2016,Better async code with promises,,https://youtu.be/zOhvH4dslF4
+Алексей Богачук,KharkivJS,russian,,2016,Reactive Programming with RxJS,,https://youtu.be/r1BD4TEL6Yc
+Роман Лютиков,KharkivJS,russian,,2016,"ClojureScript, что ты такое?",,https://youtu.be/ChxMUwSTEWc
+Дмитрий Малеев,KharkivJS,russian,,2016,У нас в архитектуре все не очень,,https://youtu.be/dq9aKdUbBoE
+Ярослав Сергеев,KharkivJS,russian,,2016,Imagine it,,https://youtu.be/MsyIf2sYYhU
+Juho Vepsäläinen,KharkivJS,english,,2016,React API design,,https://youtu.be/1niBVCLfAGI
+Денис Довгань,KharkivJS,ukranian,,2016,Shells written in JavaScript,,https://youtu.be/ijXfFu61XH0
+Paul Miller,KharkivJS,russian,,2016,How to become famous with GitHub and open-source,,https://youtu.be/sVbNF6zp3lY
+Георгий Подсветов,KharkivJS,russian,,2016,JavaScript and offline business. Next big deal,,https://youtu.be/lam0mteyz1I
+Сергей Рубанов,KharkivJS,russian,,2016,Moving Web forward: Part I — ECMAScript 201x,,https://youtu.be/pjDpN3nRpdc
+Юрий Лучанинов,KharkivJS,russian,,2016,Angular Native,,https://youtu.be/jTxT95injrE
+Вадим Макеев,KharkivJS,russian,,2016,I’m in IoT,,https://youtu.be/LuLB6xj1rpQ
+Денис Стоянов,KharkivJS,russian,,2016,Deal with async programming,,https://youtu.be/0ZcCPX6uT5c
+Юрий Плугатарев,KharkivJS,english,,2016,Iframe rampage. Sad story of one integration,,https://youtu.be/6R7H_Jboaf8
+Филипп Шурпик,KharkivJS,english,,2016,React Native. Way to production,,https://youtu.be/b88ySmEwoG0
+Андрей Шумада,KharkivJS,english,,2016,Error handling in Node.js streams,,https://youtu.be/FlyYgwqLzig
+Вячеслав Слинько,KharkivJS,russian,,2016,Static typing in browser,,https://youtu.be/5dHFRt8aMiA
+Ингвар Степанян,KharkivJS,english,,2016,Compilers/V8,,https://youtu.be/BOpvsHZehiA
+Илья Климов,KharkivJS,english,,2016,"Flow, why should fall in love with it",,https://youtu.be/GEo3XIJw8HM
+Juho Vepsäläinen,KharkivJS,english,,2016,Advanced webpack,,https://youtu.be/sWzTtYKDCnE
+Алексей Швайка,KharkivJS,english,,2016,Better Web Components with membranes,,https://youtu.be/TgFFsaETKrA
+Денис Радин,KharkivJS,english,,2016,Porting Web Application to Virtual Reality,,https://youtu.be/Fen3AS7SAPk
+Андрей Листочкин,KharkivJS,english,,2016,Next,,https://youtu.be/Z37W65etPg4
+Максим Онуфриенко,KharkivJS,russian,,2016,Testing well. Stop shooting yourself in the foot,,https://youtu.be/qNdHchzY-dQ
+Евгений Нежута,KharkivJS,english,,2016,JS in IoT,,https://youtu.be/a2_keSbEgIM
+Иван Лаврив,KharkivJS,english,,2016,Exploring ML in javaScript world,,https://youtu.be/4EFQDKtDAUY
+Валерий Сорокобатько,KharkivJS,russian,,2017,What is CSSinJS?,,https://youtu.be/snO_fDxy3cY
+Владимир Дашукевич,KharkivJS,russian,,2017,Тайны зеленого замочка,,https://youtu.be/VufUKONzZdM
+Денис Довгань,KharkivJS,urkanian,,2017,A crash-course into virtual reality for web-developers,,https://youtu.be/KBFEWnnjhKg
+Денис Радин,KharkivJS,russian,,2017,Pixel shaders for Web developers,,https://youtu.be/TjcfdEshH4w
+Тимур Шемсединов,KharkivJS,russian,,2017,Асинхронное программирование на JS и Node.js,,https://youtu.be/VdRhAXnfrd0
+Алексей Бахачук,KharkivJS,russian,,2017,Security: Vulnerabilities in your application,,https://youtu.be/DG_fWHeGjXI
+Asim Hussain,KharkivJS,english,,2017,Security,,https://youtu.be/A3MPD_zl_Ms
+Aleksandar Simovic,KharkivJS,english,,2017,Effortless Serverless,,https://youtu.be/eoNPvQeqMZw
+Сергей Попов,KharkivJS,russian,,2017,А что если мы долетим и там будет всё?,,https://youtu.be/DYyWpZ8XRho
+Илья Климов,KharkivJS,russian,,2017,Copy-pASTe,,https://youtu.be/dyvPGRor-Q0
+Максим Климишин,KharkivJS,russian,,2017,"Groupware Systems for fun and profit CRDT, OT, Offline",,https://youtu.be/xEZwd5Tu3oM
+Владими Воевидка,KharkivJS,ukranian,,2017,Что нужно знать о логах,,https://youtu.be/wrP5pNtOr9A
+Алексей Гурьянов,KharkivJS,russian,,2017,CerebralJS - A declarative state and side effects management solution for popular JavaScript frameworks,,https://youtu.be/aGcXmFj0RYc
+Максим Юзва,KharkivJS,russian,,2017,Soft Skills,,https://youtu.be/KB50Idc9ags
+Виктор Турский,KharkivJS,russian,,2017,The working architecture of NodeJS applications,,https://youtu.be/Z08xL-oXMh0
+Артем Денисов,KharkivJS,russian,,2017,Taking care of performance easiest than ever,,https://youtu.be/M5l-3z0Aulg
+Дмитрий Поддубный,KharkivJS,russian,,2017,Нужен ли Вам React SSR ?,,https://youtu.be/d-LzDQbvZxs
+Андрей Музалевский,KharkivJS,russian,,2017,Testing in Cloud,,https://youtu.be/IlEKMx0IS5c
+Стас Гаврилов,KharkivJS,russian,,2017,Browser APIs you should not live without,,https://youtu.be/R4J2-ubrgxs
+Андрей Костецкий,KharkivJS,ukranian,,2017,Программирование микроконтроллеров на JavaScript,,https://youtu.be/iHsslg8ppKw
+Георгий Подсветов,KharkivJS,russian,,2017,How to become a techlead,,https://youtu.be/st98ADflBoQ
+Евгений Жарков,KharkivJS,russian,,2017,Burn your grass with React Native,,https://youtu.be/hsKDpkYRpB4
+Виталий Ратушный,KharkivJS,russian,,2017,VueJS 3 cases of usage,,https://youtu.be/FpMEA7GUl-g
+Елена Шаровар,KharkivJS,russian,,2017,Polymer – разработка приложений,,https://youtu.be/Xi_eauNC_3E
+Николай Латоцкий,KharkivJS,russian,,2017,NodeJS Error Handling,,https://youtu.be/ytatJN8yYn4
+Олег Слободской,KharkivJS,russian,,2017,UVP and the future of CSSinJS,,https://youtu.be/i1rDywKSMIk
+Владимир Поляков,KharkivJS,russian,,2017,How to be a 10x JavaScript developer,,https://youtu.be/JZuPYu5m6mo
+Максим Бугай,KharkivJS,russian,,2017,Activity tracking for UX protection,,https://youtu.be/gHDmFFaRQts
+Екатерина Лизогубова,KharkivJS,russian,,2017,React i18n done right,,https://youtu.be/R_OzpLIdxaM
+Юлия Савинкова,KharkivJS,russian,,2017,"Three js, Back to the Future",,https://youtu.be/E8qZeDHxnt8
+Александр Павлыщ,KharkivJS,russian,,2017,Visual regression testing with BackstopJS,,https://youtu.be/QBNrb3ZAlZo
+Дмитрий Калинин,KharkivJS,russian,,2017,Polimerisation of Web Components,,https://youtu.be/2wddU0XH92s
+Игорь Алексеенко,KharkivJS,russian,,2018,Взгляд на решение программистских задач через призму футбола,,https://youtu.be/tsX9gqmKtnM
+Илья Климов,KharkivJS,russian,,2018,Кодогенерация в JavaScript,,https://youtu.be/szIOPA_uwUc
+Вадим Макеев,KharkivJS,russian,,2018,Семантика для циников,,https://youtu.be/Ptt5Se7vyZA
+Роман Якобчук,KharkivJS,russian,,2018,A tale of one request. How Internet works under the hood,,https://youtu.be/uXXdYCd93F8
+Leon Revill,KharkivJS,english,,2018,Think Web Components before Frameworks,,https://youtu.be/CKy8tKMOP4c
+David Mihal,KharkivJS,english,,2018,Supercharge your React Apps with Meteor,,https://youtu.be/ZJ6EXJAP4kg
+Валерий Сорокобатько,KharkivJS,russian,,2018,Developer Experience на примере React компонентов,,https://youtu.be/Fe5I41V-5bQ
+Тимур Шемсединов,KharkivJS,russian,,2018,Карта знаний инженера программиста,,https://youtu.be/_s2WkaZJ0xQ
+Сергей Фролов,KharkivJS,russian,,2018,Вы все ещё сидите на докладах!?,,https://youtu.be/e-vPQeGRw9k
+Владимир Агафонкин,KharkivJS,russian,,2018,Fast by default: everyday algorithmic thinking for developers,,https://youtu.be/TesnXS0HeDw
+Сергей Бабич,KharkivJS,ukranian,,2018,WebComponents: how to live with them and without frameworks?,,https://youtu.be/rqk9Kd7JRJI
+Karol Przystalski,KharkivJS,english,,2018,Machine learning and JavaScript,,https://youtu.be/HzwrEjBQw00
+Виктор Турский,KharkivJS,russian,,2018,Практика информационной безопасности или 8 взломов за 30 минут,,https://youtu.be/kwPELSlAbdw
+Всеволод Радионов,KharkivJS,russian,,2018,"Paranoid Service Worker: повесть о безопасности, стандартах и страхах",,https://youtu.be/rchbC7RHonw
+Артем Кобзарь,KharkivJS,russian,,2018,"""True"" functional programming with JS",,https://youtu.be/XCY0MWor_jw
+Иван Гончаров,KharkivJS,urkanian,,2018,W.T.F. is GraphQL?,,https://youtu.be/GMFPu5Ee9Zs
+Виталий Акимов,KharkivJS,russian,,2018,Async Generators: Новые возможности для архитектуры Web-приложений,,https://youtu.be/3IWV_rfxdYI
+Тимур Глушан,KharkivJS,russian,,2018,WebAssembly: brand new web coming,,https://youtu.be/vJoSP5bH2AM
+Юрий Лучанинов,KharkivJS,russian,,2018,Flutter - серебряная пуля мобильной разработки,,https://youtu.be/Y3kk4Qu79Qc
+Артем Яворский,KharkivJS,russian,,2018,Know your audience or how to bundle less,,https://youtu.be/NtzZzx5e8vo
+Виталий Киктов,KharkivJS,russian,,2018,React 360 - virtual reality at the click distance,,https://youtu.be/VZFrVDQTgv0
+Сергей Кошман,KharkivJS,russian,,2018,here canvas will provide benefits to your expirience,,https://youtu.be/nOaopvS0gJ0
+Сергей Костырко,KharkivJS,russian,,2018,"Big and complex React project - Redux? Nope, let's MobX!",,https://youtu.be/jO30e_w-4fo
+Евгений Жарков,KharkivJS,russian,,2018,Create React Native App vs Expo vs Your Hands,,https://youtu.be/4LKw-fK52NU
+Николай Латоцкий,KharkivJS,russian,,2018,When should I start writing my unit tests ?,,https://youtu.be/LpE4vuJnCcA
+Николай Матвиенко,KharkivJS,russian,,2018,High throughput in Node with decomposition and parallelization of the Main Thread,,https://youtu.be/I-FcjLx9D9g
+Аркадий Пильгук,KharkivJS,russian,,2018,Computer Vision in JS,,https://youtu.be/g5KmhHSFHd0
+Роман Савицкий,KharkivJS,ukranian,,2018,Chrome Dev Tools: debug me!,,https://youtu.be/rwVNznU4edc
+Денис Радин,KharkivJS,russian,,2018,AAA 3d graphics + React,,https://youtu.be/57hMzrvZEsE
+Александр Шушунов,KharkivJS,russian,,2018,Мы затащили Flow в большой проект и …,,https://youtu.be/D7AfHAeFpLA
+Сергей Больщиков,KharkivJS,russian,,2018,Team Lead! Care about your devs!,,https://youtu.be/A5sEEncsduo
+Алексей Стрельников,KharkivJS,russian,,2018,Not tech presentation-dialog about developer lifecycle,,https://youtu.be/cKD4-17IDQg
+Артем Тритяк,LvivJS,russian,,2015,"React Native from scratch: start, build and launch",,https://youtu.be/pvl9kBKcXzY
+Андрей Листочкин,LvivJS,russian,,2015,Staying Productive with Ember,,https://youtu.be/tCG3lOBh22k
+Богдан Горпинчук,LvivJS,ukranian,,2015,"WebGL: yesterday, today, tomorrow",,https://youtu.be/Z-H6tzpnvrc
+Вадим Макеев,LvivJS,russian,,2015,Like real ones! Installing Web Apps,,https://youtu.be/H-zICnt2bXU
+Михаил Иванкив,LvivJS,ukranian,,2015,An example of solution with isomorphic architecture,,https://youtu.be/49tnhbmKYE4
+Георгий Подсветов,LvivJS,russian,,2015,Modern JavaScript engineer. Think wider.,,https://youtu.be/JhhIisvHMNI
+Олексей Прогонный,LvivJS,russian,,2015,"D3.JS tips and trics: export to svg, crossfilter, maps, etc",,https://youtu.be/oi7JhB8eWnA
+Роман Кирилич,LvivJS,ukranian,,2015,Modern Web Applications & Browser Support,,https://youtu.be/szXJbkzQko4
+Роман Якобчук,LvivJS,ukranian,,2015,Building Isomorphic SPA Using React.Js,,https://youtu.be/W0dcI40Zqn0
+Денис Яремов,LvivJS,english,,2016,Using Reflex for offline first applications,,https://youtu.be/vbBY98gZzng
+Евгейни Алаев,LvivJS,russian,,2016,Creation of native mobile apps with NativeScript and Angular2,,https://youtu.be/A1A-juRw_kE
+Андрей Шумада,LvivJS,english,,2016,How to deploy to production 10+ times a day,,https://youtu.be/EVcb6J_Yl28
+Роман Лютиков,LvivJS,english,,2016,React Native: Are we there yet?,,https://youtu.be/rahrrfJIh9s
+Роман Кирилич,LvivJS,ukranian,,2016,Exploring ways to use ES2015 today,,https://youtu.be/Goi9krFu1Fs
+Алексей Распопов,LvivJS,russian,,2016,Flux is dead. Long live Flux!,,https://youtu.be/KPV5rjuMhTg
+Максим Климишин,LvivJS,russian,,2016,Modern functional concepts and JavaScript,,https://youtu.be/aCp2j9mT_00
+Александр Лапшин,LvivJS,english,,2016,Beauty of everyday tools,,https://youtu.be/79J28-59XFo
+Asim Hussain,LvivJS,english,,2017,How to Hack a Node App,,https://youtu.be/za9sS7QV-bw
+Александр Герасимов,LvivJS,russian,,2017,Programming Challenge,,https://youtu.be/qCINJTBwMMs
+Александр Карлович,LvivJS,russian,,2017,TV in browsers Live Cases,,https://youtu.be/kixgmZd52xs
+Андрей Вандакуров,LvivJS,ukranian,,2017,Web is Secure Let's Hack It,,https://youtu.be/h3NG5Mpl384
+Антон Немцев,LvivJS,english,,2017,Code Style & Violence,,https://youtu.be/wrZCvEXTFfQ
+Артем Архипов,LvivJS,russian,,2017,Building Serverless Applications with Firebase and Google Functions,,https://youtu.be/vhKlVh9EkFg
+Дмитрий Тарасенко,LvivJS,russian,,2017,Evolutionary Programming on JS,,https://youtu.be/0CIH4ul9usc
+Дмитрий Воробей,LvivJS,russian,,2017,Serverless Architecture Functions as a Service,,https://youtu.be/G7mfnpv-BMA
+Игорь Фесенко,LvivJS,russian,,2017,How to Track Success of Your Application,,https://youtu.be/4-c2v6297ak
+Martin Splitt,LvivJS,english,,2017,"WebVR, The Next Frontier",,https://youtu.be/_BVovrTqwPM
+Александр Павлыщ,LvivJS,russian,,2017,Machines Must Suffer,,https://youtu.be/sP1A4F9UvAk
+Роман Лютиков,LvivJS,russian,,2017,Code Transformation for Fun and Profit,,https://youtu.be/2d3Dkjt0uBg
+Сергей Мельник,LvivJS,russian,,2017,Serverless Architecture Functions as a Service,,https://youtu.be/cNkKEy2cuc0
+Вадим Макеев,LvivJS,english,,2017,Inhuman UI,,https://youtu.be/9vQOy6q9XCY
