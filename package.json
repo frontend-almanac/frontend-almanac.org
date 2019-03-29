@@ -1,0 +1,45 @@
+{
+  "name": "frontend-almanac.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "server": "node server.js",
+    "dev": "node_modules/next/dist/bin/next",
+    "build": "node_modules/next/dist/bin/next build",
+    "server-up": "NODE_ENV=production node server.js",
+    "start": "node_modules/next/dist/bin/next start",
+    "pm2-next": "next build && pm2 start ./node_modules/next/dist/bin/next-start",
+    "pm2-next-cluster": "next build && pm2 start ./node_modules/next/dist/bin/next-start -i max"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-almanac/frontend-almanac.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontend-almanac/frontend-almanac.org/issues"
+  },
+  "homepage": "https://github.com/frontend-almanac/frontend-almanac.org#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cross-fetch": "^3.0.1",
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.3",
+    "next-routes": "^1.4.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.4",
+    "babel-jest": "24.1.0",
+    "enzyme": "3.4.3",
+    "enzyme-adapter-react-16": "1.2.0",
+    "jest": "24.1.0",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.4.2"
+  }
+}

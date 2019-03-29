@@ -1,4 +1,4 @@
-name,conference name,language,type,year,title,description,link
+name,conferenceName,language,type,year,title,description,link
 Илья Климов,JavaScript fwdays,russian,,2018,JavaScript: День 4001-й,,https://youtu.be/jzaZlEOSwoA
 Сергей Бабич,JavaScript fwdays,ukranian,,2018,Як ангулярити на 5+,,https://youtu.be/dfJyrbk7PME
 Михаил Чурилов,JavaScript fwdays,russian,,2018,Front-end Microservices Architecture,,https://youtu.be/2r9KqASOSeM
