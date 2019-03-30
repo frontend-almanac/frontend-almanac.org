@@ -9,6 +9,9 @@ class About extends Component {
         <Head>
           <title>О проекте – Frontend Almanac</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta property="og:url" content="https://frontend-almanac.org/about" />
+          <meta property="og:title" content="Фронтенд Альманах" />
+          <meta property="og:description" content="Каталог ссылок на видео фронтенд конференций Украины" />
         </Head>
         <section>
           <Title title="О проекте" />

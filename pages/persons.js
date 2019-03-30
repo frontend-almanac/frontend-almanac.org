@@ -9,10 +9,15 @@ import Title from '../components/Title/title';
 class Persons extends Component {
   render() {
     const titleText = this.props.name ? `Спикеры: ${this.props.name}` : 'Спикеры';
+    const ogUrl = this.props.name ? `/${this.props.name}` : '';
+    const ogDesc = this.props.name ? `Ссылки на видео докладов ${this.props.name}. Поиск по названию, автору. Статистика по конференциям.` : 'Список спикеров и каталог ссылок на видео фронтенд конференций Украины';
     return <Layout>
       <Head>
-        <title>Список спикеров – Frontend Almanac</title>
+        <title>Список спикеров Фронтенд Альманах</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:url" content={`https://frontend-almanac.org/persons${ogUrl}`} />
+        <meta property="og:title" content={`${titleText} – Фронтенд Альманах`} />
+        <meta property="og:description" content={ogDesc} />
       </Head>
       <section>
         <Title title={titleText} />

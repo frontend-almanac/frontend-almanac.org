@@ -42,8 +42,11 @@ class Home extends Component {
     const list = this.state.searchSuccess ? this.state.list : this.props.list;
     return <Layout>
       <Head>
-        <title>Главная – Frontend Almanac</title>
+        <title>Главная – Фронтенд Альманах</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:url" content="https://frontend-almanac.org/" />
+        <meta property="og:title" content="Фронтенд Альманах" />
+        <meta property="og:description" content="Каталог ссылок на видео фронтенд конференций Украины" />
       </Head>
       <Search onSearch={this.search.bind(this)}></Search>
       <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
