@@ -34,7 +34,7 @@ export const styles = {
     },
     link: {
       margin: '0 3vw',
-      fontSize: '5vw'
+      fontSize: '4.5vw'
     }
   }
 }
