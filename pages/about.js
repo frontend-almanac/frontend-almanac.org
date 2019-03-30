@@ -1,9 +1,5 @@
-import Link from 'next/link'
 import { Component } from 'react';
-import fetch from 'cross-fetch'
-import Layout from '../components/MyLayout.js'
-
-import csvToJSON from '../helpser/csv_to_json';
+import Layout from '../components/MyLayout/MyLayout.js'
 
 class About extends Component {
     render() {

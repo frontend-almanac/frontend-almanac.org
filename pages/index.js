@@ -1,20 +1,11 @@
-import Link from 'next/link';
-import { Component, Fragment } from 'react';
-import fetch from 'cross-fetch';
+import { Component } from 'react';
 
-import Layout from '../components/MyLayout.js'
-import videoList from '../videoList';
-import csvToJSON from '../helpser/csv_to_json';
+import Layout from '../components/MyLayout/MyLayout.js'
+import Search from '../components/Search/search.js';
+import SearchResult from '../components/SearchResult/search-result.js';
+import videoList from '../services/videoList';
 
-const searchStyle = {
-  border: '1px solid #c0c0c0',
-  padding: '1% 1%',
-  display: 'block',
-  boxSizing: 'border-box',
-  width: '100%',
-  fontSize: '18px',
-  borderRadius: '10px'
-}
+
 const speakerName = {
   fontSize: '18px',
   textDecoration: 'none'
@@ -49,29 +40,17 @@ class Home extends Component {
   render() {
     const list = this.state.searchSuccess ? this.state.list : this.props.list;
     return <Layout>
-      <input onChange={this.search.bind(this)} style={searchStyle} type="text"/>
-      
-      <section>
-        <h1>{this.state.searchSuccess ? 'Результаты поиска' : 'Случайное видео'}</h1>
-        <ul>
-          {list.map((el, index) => <li key={index}>
-            <Link href="/about?id=2" as="/about/2" ><a style={speakerName} href="/about/2">{el.name}</a></Link>
-            {' '}
-            <a href={el.link} target="_blank">{el.title}</a>
-            {' '}
-            <a target="_blank">{el.conferenceName} [{el.year}]</a>
-          </li>)}
-        </ul>
-      </section>
-
+      <Search onSearch={this.search.bind(this)}></Search>
+      <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
     </Layout>
   }
 
   static async getInitialProps({ query: { id }}) {
-    const videos = await fetch('https://raw.githubusercontent.com/frontend-almanac/frontend-almanac.org/master/list.csv?1').then(data => data.text()).catch(error => console.log(error));
+    const res = await videoList.fetch();
+    
     return {
       id,
-      list: csvToJSON(videos).sort((el) => {
+      list: res.sort((el) => {
         return .5 - Math.random();
       }).slice(0, 5)
     };

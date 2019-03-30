@@ -1,7 +1,6 @@
 import { Component } from 'react';
-import Layout from '../components/MyLayout.js';
-import csvToJSON from '../helpser/csv_to_json';
-import fetch from 'cross-fetch';
+import Layout from '../components/MyLayout/MyLayout.js'
+import videoList from '../services/videoList'
 
 class Persons extends Component {
   render() {
@@ -17,8 +16,8 @@ class Persons extends Component {
     </Layout>
   }
   static async getInitialProps({ query: { id } }) {
-    const videos = await fetch('https://raw.githubusercontent.com/frontend-almanac/frontend-almanac.org/master/list.csv?1').then(data => data.text()).catch(error => console.log(error));
-    const speakers = csvToJSON(videos).reduce((acc, el) => {
+    const res = await videoList.fetch();
+    const speakers = res.reduce((acc, el) => {
       if (acc.indexOf(el.name) === -1) {
         acc.push(el.name);
       }
@@ -29,7 +28,6 @@ class Persons extends Component {
       speakers: speakers.sort((first, second) => {
         const letterFirst = first.split(' ').pop();
         const letterSecond = second.split(' ').pop();
-        console.log(letterFirst[0], letterSecond[0]);
         if(letterFirst[0] > letterSecond[0]) {
           return 1;
         } else if (letterFirst[0] < letterSecond[0]) {
