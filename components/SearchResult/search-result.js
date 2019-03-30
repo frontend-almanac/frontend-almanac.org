@@ -7,7 +7,7 @@ import { styles } from './styles.js'
 function SearchResult(props) {
   return (
     <section className={props.classes.searchResult}>
-      <h1 className={props.classes.title}>{props.searchSuccess ? 'Результаты поиска' : 'Случайное видео'}</h1>
+      <h1 className={props.classes.title}>{props.searchSuccess ? `Результаты поиска [${props.list.length} шт]` : 'Случайное видео'}</h1>
       <ul className={props.classes.cardList}>
         {props.list.map((el, index) => <li className={props.classes.cardItem} key={index}>
           <div className={props.classes.cardItemTitle}>

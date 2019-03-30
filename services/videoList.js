@@ -26,6 +26,8 @@ class videoList {
         el.name.toUpperCase().indexOf(search.toUpperCase()) !== -1
         ||
         el.conferenceName.toUpperCase().indexOf(search.toUpperCase()) !== -1
+        ||
+        el.year.toUpperCase().indexOf(search.toUpperCase()) !== -1
       ) return true;
     });
   }

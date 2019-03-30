@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Head from 'next/head';
 
 import Layout from '../components/MyLayout/MyLayout.js'
 import Search from '../components/Search/search.js';
@@ -21,7 +22,7 @@ class Home extends Component {
   }
   search(el) {
     const query = el.target.value;
-    if (query.length > 3) {
+    if (query.length >= 3) {
       const res = videoList.search(el.target.value);
       this.setState({
         list: res,
@@ -40,6 +41,10 @@ class Home extends Component {
   render() {
     const list = this.state.searchSuccess ? this.state.list : this.props.list;
     return <Layout>
+      <Head>
+        <title>Главная – Frontend Almanac</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Search onSearch={this.search.bind(this)}></Search>
       <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
     </Layout>

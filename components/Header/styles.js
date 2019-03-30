@@ -25,5 +25,16 @@ export const styles = {
     padding: '1%',
     backgroundColor: '#E9EEF2',
     borderRadius: '8px'
+  },
+  '@media (max-width: 800px)': {
+    nav: {
+      padding: '3vw',
+      borderRadius: '8vw',
+      textAlign: 'center'
+    },
+    link: {
+      margin: '0 3vw',
+      fontSize: '5vw'
+    }
   }
 }

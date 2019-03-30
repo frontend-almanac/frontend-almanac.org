@@ -10,8 +10,8 @@
     "build": "node_modules/next/dist/bin/next build",
     "server-up": "NODE_ENV=production node server.js",
     "start": "node_modules/next/dist/bin/next start",
-    "pm2-next": "next build && pm2 start ./node_modules/next/dist/bin/next-start",
-    "pm2-next-cluster": "next build && pm2 start ./node_modules/next/dist/bin/next-start -i max"
+    "pm2-next": "next build && NODE_ENV=production pm2 start server.js",
+    "pm2-next-cluster": "next build && NODE_ENV=production pm2 start server.js -i max"
   },
   "repository": {
     "type": "git",

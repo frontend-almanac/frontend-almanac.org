@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Head from 'next/head';
 import Layout from '../components/MyLayout/MyLayout.js'
 import videoList from '../services/videoList'
 import SearchResult from '../components/SearchResult/search-result.js';
@@ -9,6 +10,10 @@ class Persons extends Component {
   render() {
     const titleText = this.props.name ? `Спикеры: ${this.props.name}` : 'Спикеры';
     return <Layout>
+      <Head>
+        <title>Список спикеров – Frontend Almanac</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <section>
         <Title title={titleText} />
         {this.props.speakers && <Speakers list={this.props.speakers} /> }

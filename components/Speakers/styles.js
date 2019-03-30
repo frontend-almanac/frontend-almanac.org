@@ -24,5 +24,14 @@ export const styles = {
     '&:hover': {
       color: '#007bff',
     }
+  },
+  '@media (max-width: 800px)': {
+    listContainer: {
+      padding: '6vw'
+    },
+    speakerItemLink: {
+      fontSize: '5vw',
+      margin: '0 4vw 4vw 0'
+    }
   }
 }

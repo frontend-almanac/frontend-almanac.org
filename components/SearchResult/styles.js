@@ -68,5 +68,37 @@ export const styles = {
     right: 0,
     bottom: 0,
     padding: '0 1% 1% 0'
+  },
+  '@media (max-width: 800px)': {
+    searchResult: {
+      padding: '6vw',
+    },
+    title: {
+      fontSize: '7vw',
+      margin: '0 0 6vw 0',
+      whiteSpace: 'nowrap',
+      textOverflow: 'ellipsis',
+      overflow: 'hidden'
+    },
+    cardItem: {
+      padding: '3vw',
+      margin: '6vw 0 0',
+    },
+    cardItemTitle: {
+      fontSize: '5vw',
+      lineHeight: 1.2,
+      margin: '0 0 3vw'
+    },
+    cardItemAuthor: {
+      fontSize: '4vw'
+    },
+    cardItemYear: {
+      fontSize: '4vw',
+      padding: '3vw 3vw 0 0'      
+    },
+    cardItemConference: {
+      fontSize: '4vw',
+      padding: '0 3vw 3vw 0'      
+    }
   }
 }
