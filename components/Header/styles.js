@@ -6,12 +6,10 @@ export const styles = {
     textDecoration: 'none',
     position: 'relative',
     '&:focus': {
-      color: '#007bff',
-      outline: 'none'
+      color: '#007bff'
     },
     '&:hover, &.active': {
-      color: '#007bff',
-      outline: 'none'
+      color: '#007bff'
     },
     '&:hover::after': {
       content: '""',

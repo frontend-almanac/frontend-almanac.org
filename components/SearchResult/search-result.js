@@ -15,10 +15,10 @@ function SearchResult(props) {
           </div>
           
           <div className={props.classes.cardItemAuthor}>
-            <Link href="/about?id=2" as="/about/2" ><a href="/about/2">{el.name}</a></Link>
+            <Link href={`/persons?name=${el.name}`} as={`/persons/${el.name}`} ><a href={`/persons/${el.name}`}>{el.name}</a></Link>
           </div>
           <div className={props.classes.cardItemYear}>{el.year}</div>
-          <a className={props.classes.cardItemConference} target="_blank">{el.conferenceName}</a>
+          <div className={props.classes.cardItemConference}>{el.conferenceName}</div>
 
           <span style={{borderColor: el.color}} className={props.classes.cardItemMark}></span>
         </li>)}

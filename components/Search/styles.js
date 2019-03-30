@@ -16,7 +16,8 @@ export const styles = {
       borderColor: '#99caff'
     },
     '&::placeholder': {
-      color: '#6c757d'
+      color: '#6c757d',
+      fontWeight: 150
     }
   }
 }

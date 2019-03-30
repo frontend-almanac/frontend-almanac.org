@@ -7,7 +7,7 @@ import { styles } from './styles.js'
 function Search(props) {
   return (
     <div className={props.classes.searchWrapper}>
-      <input placeholder="Поиск..." onChange={props.onSearch} className={props.classes.search} type="search" />
+      <input placeholder="Ищите по автору, названию доклада или названию конференции..." onChange={props.onSearch} className={props.classes.search} type="search" />
     </div>
   )
 }
