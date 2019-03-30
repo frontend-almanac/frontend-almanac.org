@@ -22,6 +22,51 @@ export const styles = {
     margin: '1% 0 0',
     padding: '1%',
     borderRadius: 8,
-    listStyle: 'none'
+    listStyle: 'none',
+    position: 'relative',
+  },
+  cardItemMark: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: 10,
+    border: 0,
+    borderTop: '2px solid #E9EEF2',
+    borderRadius: '30px'
+  },
+  cardItemTitle: {
+    maxWidth: '70%',
+    fontWeight: 600,
+    fontSize: 15,
+    '& a': {
+      color: '#212529',
+      textDecoration: 'none',
+      '&:hover': {
+        color: '#007bff'
+      }
+    }
+  },
+  cardItemAuthor: {
+    maxWidth: '70%',
+    '& a': {
+      color: '#6c757d',
+      textDecoration: 'none',
+      '&:hover': {
+        color: '#212529'
+      }
+    }
+  },
+  cardItemYear: {
+    position: 'absolute',
+    right: 0,
+    top: 0,
+    padding: '1% 1% 0 0'
+  },
+  cardItemConference: {
+    position: 'absolute',
+    right: 0,
+    bottom: 0,
+    padding: '0 1% 1% 0'
   }
 }

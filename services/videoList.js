@@ -1,6 +1,8 @@
 import csvToJSON from '../helpser/csv_to_json';
 import fetch from 'cross-fetch'
 import cache from '../helpser/cache';
+import mergeConferenceInfo from '../helpser/mergeConferenceInfo';
+import { conferencies } from '../options';
 
 class videoList {
   constructor() {
@@ -14,7 +16,7 @@ class videoList {
       if (first.year < second.year) return -1;
       return 0;
     });
-    return this.videos;
+    return mergeConferenceInfo(this.videos, conferencies);
   }  
   search(search) {
     return this.videos.filter(el => {

@@ -10,12 +10,17 @@ function SearchResult(props) {
       <h1 className={props.classes.title}>{props.searchSuccess ? 'Результаты поиска' : 'Случайное видео'}</h1>
       <ul className={props.classes.cardList}>
         {props.list.map((el, index) => <li className={props.classes.cardItem} key={index}>
-          <a className={props.classes.cardItemTitle} href={el.link} target="_blank">{el.title}</a>
-          {' '}
+          <div className={props.classes.cardItemTitle}>
+            <a href={el.link} target="_blank">{el.title}</a>
+          </div>
+          
+          <div className={props.classes.cardItemAuthor}>
+            <Link href="/about?id=2" as="/about/2" ><a href="/about/2">{el.name}</a></Link>
+          </div>
+          <div className={props.classes.cardItemYear}>{el.year}</div>
+          <a className={props.classes.cardItemConference} target="_blank">{el.conferenceName}</a>
 
-          <Link href="/about?id=2" as="/about/2" ><a className={props.classes.cardItemAuthor} href="/about/2">{el.name}</a></Link>
-          {' '}
-          <a className={props.classes.cardItemConference} target="_blank">{el.conferenceName} [{el.year}]</a>
+          <span style={{borderColor: el.color}} className={props.classes.cardItemMark}></span>
         </li>)}
       </ul>
     </section>
