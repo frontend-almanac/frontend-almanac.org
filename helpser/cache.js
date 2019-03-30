@@ -14,7 +14,7 @@ export default function cache(fetch) {
             resolve(res.toString());
           } else {
             const res = await fetch(url, options).then(data => data.text()).catch(e => reject(e))
-            fs.writeFile(path, res);
+            fs.writeFile(path, res, () => { });
             resolve(res);
           }
         } catch (error) {
