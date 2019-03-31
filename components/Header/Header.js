@@ -6,13 +6,13 @@ import { withRouter } from 'next/router'
 function Header(props) {
   return (
     <nav className={props.classes.nav}>
-      <Link href="/">
+      <Link href="/" as="/">
         <a href="/" className={[props.classes.link, props.router.pathname === '/' ? 'active': ''].join(' ')}>На главную</a>
       </Link>
-      <Link href="/persons">
+      <Link href="/persons" as="/persons">
         <a href="/persons" className={[props.classes.link, props.router.pathname === '/persons' ? 'active' : ''].join(' ')}>Спикеры</a>
       </Link>
-      <Link href="/about">
+      <Link href="/about" as="/about">
         <a href="/about" className={[props.classes.link, props.router.pathname === '/about' ? 'active' : ''].join(' ')}>О проекте</a>
       </Link>
     </nav>
