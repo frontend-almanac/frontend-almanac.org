@@ -10,21 +10,25 @@ export const styles = {
     },
     '&:hover, &.active': {
       color: '#007bff'
-    },
-    '&:hover::after': {
-      content: '""',
-      position: 'absolute',
-      bottom: 0,
-      left: 0,
-      width: '100%',
-      color: '#007bff',
-      borderBottom: '1px solid #007bff'
     }
   },
   nav: {
     padding: '1%',
     backgroundColor: '#E9EEF2',
     borderRadius: '8px'
+  },
+  '@media (min-width: 801px)': {
+    link: {
+      '&:hover::after': {
+        content: '" "',
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        width: '100%',
+        color: '#007bff',
+        borderBottom: '1px solid #007bff'
+      }
+    }
   },
   '@media (max-width: 800px)': {
     nav: {
