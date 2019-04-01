@@ -8,7 +8,7 @@ class videoList {
   constructor() {
     this.videos = [];
     this.cacheFetch = cache(fetch);
-    this.version = 2;
+    this.version = 3;
   }
   async fetch() {
     this.videos = await this.cacheFetch('https://raw.githubusercontent.com/frontend-almanac/frontend-almanac.org/master/list.csv?' + this.version);

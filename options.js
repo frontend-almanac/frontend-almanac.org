@@ -26,5 +26,9 @@ export const conferencies = {
   'Zlit': {
     icon: null,
     color: '#000000'
+  },
+  'KyivJS': {
+    icon: null,
+    color: 'rgba(3, 167, 3, 0.82)'
   }
 }
