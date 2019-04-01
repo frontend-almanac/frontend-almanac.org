@@ -5,6 +5,7 @@ import Layout from '../components/MyLayout/MyLayout.js'
 import Search from '../components/Search/search.js';
 import SearchResult from '../components/SearchResult/search-result.js';
 import videoList from '../services/videoList';
+import OpenGraph from '../components/OpenGraph/openGraph';
 
 
 const speakerName = {
@@ -44,9 +45,7 @@ class Home extends Component {
       <Head>
         <title>Главная – Фронтенд Альманах</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:url" content="https://frontend-almanac.org/" />
-        <meta property="og:title" content="Главная – Фронтенд Альманах" />
-        <meta property="og:description" content="Каталог ссылок на видео фронтенд конференций Украины" />
+        <OpenGraph url="https://frontend-almanac.org/" title="Главная – Фронтенд Альманах" description="Каталог ссылок на видео фронтенд конференций Украины" />
       </Head>
       <Search onSearch={this.search.bind(this)}></Search>
       <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
