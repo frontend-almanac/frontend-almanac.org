@@ -1,7 +1,8 @@
 import { Component } from 'react';
 import Head from 'next/head';
-import Layout from '../components/MyLayout/MyLayout.js'
-import Title from '../components/Title/title'
+import Layout from '../components/MyLayout/MyLayout.js';
+import Title from '../components/Title/title';
+import OpenGraph from '../components/OpenGraph/openGraph';
 
 class About extends Component {
     render() {
