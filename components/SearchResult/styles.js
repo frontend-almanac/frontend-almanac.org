@@ -67,7 +67,10 @@ export const styles = {
     position: 'absolute',
     right: 0,
     bottom: 0,
-    padding: '0 1% 1% 0'
+    padding: '0 1% 1% 0',
+    '& a': {
+      textDecoration: 'none'
+    }
   },
   '@media (max-width: 800px)': {
     searchResult: {

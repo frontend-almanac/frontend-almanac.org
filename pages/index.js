@@ -45,7 +45,7 @@ class Home extends Component {
         <title>Главная – Фронтенд Альманах</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:url" content="https://frontend-almanac.org/" />
-        <meta property="og:title" content="Фронтенд Альманах" />
+        <meta property="og:title" content="Главная – Фронтенд Альманах" />
         <meta property="og:description" content="Каталог ссылок на видео фронтенд конференций Украины" />
       </Head>
       <Search onSearch={this.search.bind(this)}></Search>

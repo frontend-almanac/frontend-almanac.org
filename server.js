@@ -25,6 +25,10 @@ app.prepare().then(() => {
       return app.render(req, res, '/persons', { name: req.params.name })
     })
 
+    server.get('/event/:name', (req, res) => {
+      return app.render(req, res, '/event', { name: req.params.name })
+    })
+
     server.get('*', (req, res) => {
         return handle(req, res)
     })
