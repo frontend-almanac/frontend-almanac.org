@@ -7,6 +7,10 @@ export const conferencies = {
     icon: null,
     color: '#212529'
   },
+  'KharkivCSS': {
+    icon: null,
+    color: '#009933'
+  },
   'OdessaJS': {
     icon: null,
     color: '#c7121f'
@@ -18,5 +22,9 @@ export const conferencies = {
   'LvivJS': {
     icon: null,
     color: '#ffcc39'
+  },
+  'Zlit': {
+    icon: null,
+    color: '#000000'
   }
 }
