@@ -5,6 +5,7 @@ import videoList from '../services/videoList'
 import SearchResult from '../components/SearchResult/search-result.js';
 import Speakers from '../components/Speakers/speakers.js';
 import Title from '../components/Title/title';
+import OpenGraph from '../components/OpenGraph/openGraph';
 
 class Event extends Component {
   render() {
@@ -15,9 +16,7 @@ class Event extends Component {
       <Head>
         <title>Видео конференции {this.props.name} – Фронтенд Альманах</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:url" content={`https://frontend-almanac.org/persons${ogUrl}`} />
-        <meta property="og:title" content={`${titleText} – Фронтенд Альманах`} />
-        <meta property="og:description" content={ogDesc} />
+        <OpenGraph url={`https://frontend-almanac.org/event${ogUrl}`} title={`${titleText} – Фронтенд Альманах`} description={ogDesc} />        
       </Head>
       <section>
         <Title title={titleText} />
