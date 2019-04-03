@@ -30,5 +30,9 @@ export const conferencies = {
   'KyivJS': {
     icon: null,
     color: 'rgba(3, 167, 3, 0.82)'
+  },
+  'VinnytsiaJS': {
+    icon: null,
+    color: 'rgba(49, 21, 93, 0.7)'
   }
 }
