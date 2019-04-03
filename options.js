@@ -29,10 +29,10 @@ export const conferencies = {
   },
   'KyivJS': {
     icon: null,
-    color: 'rgba(3, 167, 3, 0.82)'
+    color: '#03a703d1'
   },
   'VinnytsiaJS': {
     icon: null,
-    color: 'rgba(49, 21, 93, 0.7)'
+    color: '#31155d'
   }
 }
