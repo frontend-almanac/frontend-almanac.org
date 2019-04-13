@@ -34,5 +34,9 @@ export const conferencies = {
   'VinnytsiaJS': {
     icon: null,
     color: '#31155d'
+  },
+  'Kharkiv Frontend': {
+    icon: null,
+    color: '#47a5ae'
   }
 }
