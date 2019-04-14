@@ -18,11 +18,11 @@ app.prepare().then(() => {
     })
     
     server.get('/persons', (req, res) => {
-      return app.render(req, res, '/persons', { id: req.params.id })
+      return app.render(req, res, '/persons-list', { id: req.params.id })
     })
 
     server.get('/persons/:name', (req, res) => {
-      return app.render(req, res, '/persons', { name: req.params.name })
+      return app.render(req, res, '/persons-detail', { name: req.params.name })
     })
 
     server.get('/event/:name', (req, res) => {

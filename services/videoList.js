@@ -32,6 +32,9 @@ class videoList {
       ) return true;
     });
   }
+  forceSet(list) {
+    this.videos = list;
+  }
 }
 
 export default new videoList;
