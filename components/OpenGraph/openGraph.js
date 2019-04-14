@@ -6,7 +6,7 @@ function OpenGraph(props) {
       <meta property="og:url" content={props.url} />
       <meta property="og:title" content={props.title} />
       <meta property="og:description" content={props.content} />
-      <meta property="og:image" content='https://frontend-almanac.org/static/logo.png' />
+      <meta property="og:image" content='https://frontend-almanac.org/static/logo-fb.png' />
       
       
       <meta name="twitter:card" content="summary"></meta>
