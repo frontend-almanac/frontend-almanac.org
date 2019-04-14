@@ -23,7 +23,7 @@ function Layout(props) {
       `}</style>
       <div className={props.classes.headerLayout}>
         <div className={props.classes.headerLogo}>
-          <Link href="/" as="/"><img src="/static/logo.svg" width="100px" alt=""/></Link>
+          <Link href="/" as="/"><a href="/"><img src="/static/logo.svg" width="100px" alt=""/></a></Link>
         </div>
         <div className={props.classes.headerRight}>
           <Header />
