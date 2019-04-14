@@ -17,6 +17,10 @@ app.prepare().then(() => {
       return app.render(req, res, '/about', { id: req.params.id })
     })
     
+    server.get('/events', (req, res) => {
+      return app.render(req, res, '/event-list', { id: req.params.id })
+    })
+    
     server.get('/persons', (req, res) => {
       return app.render(req, res, '/persons-list', { id: req.params.id })
     })
@@ -25,7 +29,7 @@ app.prepare().then(() => {
       return app.render(req, res, '/persons-detail', { name: req.params.name })
     })
 
-    server.get('/event/:name', (req, res) => {
+    server.get('/events/:name', (req, res) => {
       return app.render(req, res, '/event', { name: req.params.name })
     })
 

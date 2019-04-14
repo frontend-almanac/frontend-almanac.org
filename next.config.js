@@ -6,6 +6,10 @@ module.exports = {
       path: '/about/:id'
     },
     {
+      page: '/event-list',
+      path: '/events'
+    },
+    {
       page: '/persons-detail',
       path: '/persons/:name'
     },

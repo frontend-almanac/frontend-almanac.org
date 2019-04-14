@@ -12,6 +12,9 @@ function Header(props) {
       <Link href="/persons" as="/persons">
         <a href="/persons" className={[props.classes.link, props.router.pathname === '/persons-list' ? 'active' : ''].join(' ')}>Спикеры</a>
       </Link>
+      <Link href="/events" as="/events">
+        <a href="/events" className={[props.classes.link, props.router.pathname === '/event-list' ? 'active' : ''].join(' ')}>Конференции</a>
+      </Link>
       <Link href="/about" as="/about">
         <a href="/about" className={[props.classes.link, props.router.pathname === '/about' ? 'active' : ''].join(' ')}>О проекте</a>
       </Link>
