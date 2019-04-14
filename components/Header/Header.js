@@ -10,7 +10,7 @@ function Header(props) {
         <a href="/" className={[props.classes.link, props.router.pathname === '/' ? 'active': ''].join(' ')}>На главную</a>
       </Link>
       <Link href="/persons" as="/persons">
-        <a href="/persons" className={[props.classes.link, props.router.pathname === '/persons' ? 'active' : ''].join(' ')}>Спикеры</a>
+        <a href="/persons" className={[props.classes.link, props.router.pathname === '/persons-list' ? 'active' : ''].join(' ')}>Спикеры</a>
       </Link>
       <Link href="/about" as="/about">
         <a href="/about" className={[props.classes.link, props.router.pathname === '/about' ? 'active' : ''].join(' ')}>О проекте</a>

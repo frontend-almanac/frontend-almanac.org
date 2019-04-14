@@ -1,4 +1,5 @@
 import Header from '../Header/Header'
+import Link from 'next/link'
 import Footer from '../Footer/Footer'
 import injectSheet from 'react-jss'
 import { styles } from './styles.js'
@@ -20,7 +21,14 @@ function Layout(props) {
           color: #007bff;
         }
       `}</style>
-      <Header />
+      <div className={props.classes.headerLayout}>
+        <div className={props.classes.headerLogo}>
+          <Link href="/" as="/"><img src="/static/logo.svg" width="100px" alt=""/></Link>
+        </div>
+        <div className={props.classes.headerRight}>
+          <Header />
+        </div>
+      </div>
       {props.children}
       <Footer />
     </div>
