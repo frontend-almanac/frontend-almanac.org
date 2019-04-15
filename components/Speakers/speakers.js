@@ -9,7 +9,7 @@ function Speakers(props) {
     <section className={props.classes.listContainer}>
       <ul className={props.classes.speakerList}>
         {props.list.map((el, index) => <li className={props.classes.speakerItem} key={index}>
-          <Link href={`/persons?name=${el}`} as={`/persons/${el}`} ><a className={props.classes.speakerItemLink} href={`/persons/${el}`}>{el}</a></Link>
+          <Link href={{ pathname: '/persons-detail', query: { name: el } }} as={`/persons/${el}`} ><a className={props.classes.speakerItemLink} href={`/persons/${el}`}>{el}</a></Link>
         </li>)}
       </ul>
     </section>

@@ -15,11 +15,11 @@ function SearchResult(props) {
           </div>
           
           <div className={props.classes.cardItemAuthor}>
-            <Link href={`/persons?name=${el.name}`} as={`/persons/${el.name}`} ><a href={`/persons/${el.name}`}>{el.name}</a></Link>
+            <Link href={{ pathname: '/persons-detail', query: { name: el.name } }} as={`/persons/${el.name}`} ><a href={`/persons/${el.name}`}>{el.name}</a></Link>
           </div>
           <div className={props.classes.cardItemYear}>{el.year}</div>
           <div className={props.classes.cardItemConference}>
-            <Link href={`/event?name=${el.conferenceName}`} as={`/event/${el.conferenceName}`} ><a href={`/event/${el.conferenceName}`}>{el.conferenceName}</a></Link>
+            <Link href={{ pathname: '/event', query: { name: el.conferenceName } }} as={`/events/${el.conferenceName}`} ><a href={`/event/${el.conferenceName}`}>{el.conferenceName}</a></Link>
           </div>
 
           <span style={{borderColor: el.color}} className={props.classes.cardItemMark}></span>

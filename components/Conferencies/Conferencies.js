@@ -9,7 +9,7 @@ function Conferencies(props) {
     <section className={props.classes.listContainer}>
       <ul className={props.classes.speakerList}>
         {props.list.map((el, index) => <li className={props.classes.speakerItem} key={index}>
-          <Link href={`/events?name=${el}`} as={`/events/${el}`} ><a className={props.classes.speakerItemLink} href={`/events/${el}`}>{el}</a></Link>
+          <Link href={{ pathname: '/event', query: { name: el } }} as={`/events/${el}`} ><a className={props.classes.speakerItemLink} href={`/events/${el}`}>{el}</a></Link>
         </li>)}
       </ul>
     </section>
