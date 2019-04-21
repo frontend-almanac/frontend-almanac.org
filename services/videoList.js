@@ -13,8 +13,8 @@ class videoList {
   async fetch() {
     this.videos = await this.cacheFetch('https://raw.githubusercontent.com/frontend-almanac/frontend-almanac.org/master/list.csv?' + this.version);
     this.videos = csvToJSON(this.videos).sort((first, second) => {
-      if (first.year > second.year) return 1;
-      if (first.year < second.year) return -1;
+      if (first.year > second.year) return -1;
+      if (first.year < second.year) return 1;
       return 0;
     });
     return mergeConferenceInfo(this.videos, conferencies);
