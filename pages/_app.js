@@ -1,6 +1,8 @@
-import App from 'next/app'
+import App from 'next/app';
+import Router from "next/router";
+import withGA from "next-ga";
 
-export default class MyApp extends App {
+class MyApp extends App {
   componentDidMount() {
     const style = document.getElementById('server-side-styles')
 
@@ -9,3 +11,5 @@ export default class MyApp extends App {
     }
   }
 }
+
+export default withGA("UA-88991617-2", Router)(MyApp);
