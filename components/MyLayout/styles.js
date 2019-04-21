@@ -17,7 +17,7 @@ export const styles = {
     padding: '10px 50px',
     fontSize: 14,
     lineHeight: 1.5,
-    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji"',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif',
     color: '#6c757d',
     maxWidth: '1300px',
   },
