@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import Head from 'next/head';
+import { withTranslation } from "../i18n";
+
 import Layout from '../components/MyLayout/MyLayout.js'
 import videoList from '../services/videoList'
 import Conferencies from '../components/Conferencies/Conferencies';
@@ -8,6 +10,7 @@ import OpenGraph from '../components/OpenGraph/openGraph';
 
 class Persons extends Component {
   render() {
+    const { t } = this.props;
     const titleText = t("Conference list");
     const ogDesc = t(
       "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog"
@@ -50,4 +53,4 @@ class Persons extends Component {
   }
 }
 
-export default Persons
+export default withTranslation("common")(Persons)
