@@ -9,7 +9,7 @@ import Speakers from '../components/Speakers/speakers.js';
 import Title from '../components/Title/title';
 import OpenGraph from '../components/OpenGraph/openGraph';
 
-class Persons extends Component {
+class Person extends Component {
   render() {
     const { t } = this.props;
     const titleText = this.props.name
@@ -72,4 +72,4 @@ class Persons extends Component {
   }
 }
 
-export default withTranslation("common")(Persons)
+export default withTranslation("common")(Person)
