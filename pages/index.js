@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Head from 'next/head';
+import { withTranslation } from "../i18n";
 
 import Layout from '../components/MyLayout/MyLayout.js'
 import Search from '../components/Search/search.js';
@@ -40,16 +41,26 @@ class Home extends Component {
     await videoList.fetch();
   }
   render() {
+    const { t } = this.props;
     const list = this.state.searchSuccess ? this.state.list : this.props.list;
-    return <Layout>
-      <Head>
-        <title>Главная – Фронтенд Альманах</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <OpenGraph url="https://frontend-almanac.org/" title="Главная – Фронтенд Альманах" description="Каталог ссылок на видео фронтенд конференций Украины" />
-      </Head>
-      <Search onSearch={this.search.bind(this)}></Search>
-      <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
-    </Layout>
+    return (
+      <Layout>
+        <Head>
+          <title>{t("Main Page – Frontend Almanac")}</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <OpenGraph
+            url="https://frontend-almanac.org/"
+            title={t("Main Page – Frontend Almanac")}
+            description={t("Ukrainian Frontend Conference Videos catalog")}
+          />
+        </Head>
+        <Search onSearch={this.search.bind(this)}></Search>
+        <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
+      </Layout>
+    );
   }
 
   static async getInitialProps({ query: { id }}) {
@@ -64,4 +75,4 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default withTranslation("common")(Home)

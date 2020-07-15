@@ -8,20 +8,31 @@ import OpenGraph from '../components/OpenGraph/openGraph';
 
 class Persons extends Component {
   render() {
-    const titleText = `Список конференций`;
-    const ogDesc = 'Список конференций. Список спикеров и каталог ссылок на видео фронтенд конференций Украины';
+    const titleText = t("Conference list");
+    const ogDesc = t(
+      "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog"
+    );
 
-    return <Layout>
-      <Head>
-        <title>Список конференций – Фронтенд Альманах</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <OpenGraph url={`https://frontend-almanac.org/conferencies`} title={`${titleText} – Фронтенд Альманах`} description={ogDesc} />
-      </Head>
-      <section>
-        <Title title={titleText} />
-        <Conferencies list={this.props.events} />
-      </section>
-    </Layout>
+    return (
+      <Layout>
+        <Head>
+          <title>{t("Conference list – Frontend Almanac")}</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <OpenGraph
+            url={`https://frontend-almanac.org/conferencies`}
+            title={t("{{titleText}} – Frontend Almanac", { titleText })}
+            description={ogDesc}
+          />
+        </Head>
+        <section>
+          <Title title={titleText} />
+          <Conferencies list={this.props.events} />
+        </section>
+      </Layout>
+    );
   }
   static async getInitialProps({ query: { id, name } }) {
     const res = await videoList.fetch();
