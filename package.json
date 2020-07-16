@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parse": "i18next 'pages/*.js'",
+    "parse": "i18next 'pages/*.js' 'components/**/*.js'",
     "test": "jest --watch",
     "server": "node server.js",
     "dev": "node_modules/next/dist/bin/next",

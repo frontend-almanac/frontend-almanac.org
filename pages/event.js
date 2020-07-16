@@ -39,6 +39,7 @@ class Event extends Component {
     const { t, name, list: propList, speakers } = this.props;
     const { list: stateList } = this.state;
     const titleText = t("Conference videos {{name}}", { name });
+    
     const ogUrl = `/${name}`;
     const ogDesc = t(
       "Conference videos {{name}}. Search by title, author. Statistics.",

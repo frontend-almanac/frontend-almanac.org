@@ -1,18 +1,19 @@
 import Link from 'next/link'
 import injectSheet from 'react-jss'
 import { styles } from './styles.js'
+import { withTranslation } from "../../i18n";
 
 function Search(props) {
   let placeholder;
   switch(props.page) {
     case 'event':
-      placeholder = 'Ищите по автору или названию доклада...';
+      placeholder = props.t("Search by author or title...");
       break;
     case 'persons':
-      placeholder = 'Ищите названию доклада или конференции...';
+      placeholder = props.t("Search by title or conference name...");
       break;
     default:
-      placeholder = 'Ищите по автору, названию доклада или названию конференции...';
+      placeholder = props.t("Search by author, title or conference name...");
   }
   return (
     <div className={props.classes.searchWrapper}>
@@ -21,4 +22,4 @@ function Search(props) {
   )
 }
 
-export default injectSheet(styles)(Search);
+export default withTranslation('common')(injectSheet(styles)(Search));

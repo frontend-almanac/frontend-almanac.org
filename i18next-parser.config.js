@@ -4,4 +4,5 @@ module.exports = {
   defaultNamespace: "common",
   useKeysAsDefaultValue: true,
   sort: true,
+  keySeparator: false,
 };

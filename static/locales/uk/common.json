@@ -4,23 +4,23 @@
   "About – Frontend Almanac": "About – Frontend Almanac",
   "Conference list": "Conference list",
   "Conference list – Frontend Almanac": "Conference list – Frontend Almanac",
-  "Conference videos {{name}}": {
-    " Search by Title and Author": {
-      " Statistics": "Conference videos {{name}}. Search by Title and Author. Statistics."
-    },
-    " Search by title, author": {
-      " Statistics": "Conference videos {{name}}. Search by title, author. Statistics."
-    }
-  },
+  "Conference videos {{name}}": "Conference videos {{name}}",
   "Conference videos {{name}} – Frontend Almanac": "Conference videos {{name}} – Frontend Almanac",
+  "Conference videos {{name}}. Search by Title and Author. Statistics.": "Conference videos {{name}}. Search by Title and Author. Statistics.",
+  "Conference videos {{name}}. Search by title, author. Statistics.": "Conference videos {{name}}. Search by title, author. Statistics.",
+  "Conferencies": "Conferencies",
   "CSV файл": "CSV файл",
-  "Frontend Almanac – это своего рода ретроспектива докладов конференций о фронтенде": {
-    " Вся информация взята из открытых источников и легко ищется в Youtube и поисковых системах": "Frontend Almanac – это своего рода ретроспектива докладов конференций о фронтенде. Вся информация взята из открытых источников и легко ищется в Youtube и поисковых системах."
-  },
-  "Frontend Conference list": {
-    " Speaker list and Ukrainian Frontend Conference Videos catalog": "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog"
-  },
+  "Frontend Almanac – это своего рода ретроспектива докладов конференций о фронтенде. Вся информация взята из открытых источников и легко ищется в Youtube и поисковых системах.": "Frontend Almanac – это своего рода ретроспектива докладов конференций о фронтенде. Вся информация взята из открытых источников и легко ищется в Youtube и поисковых системах.",
+  "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog": "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog",
+  "Main page": "Main page",
   "Main Page – Frontend Almanac": "Main Page – Frontend Almanac",
+  "Random Video": "Random Video",
+  "Rearch results [{{count}}]_0": "Rearch results [{{count}}]",
+  "Rearch results [{{count}}]_1": "Rearch results [{{count}}]",
+  "Rearch results [{{count}}]_2": "Rearch results [{{count}}]",
+  "Search by author or title...": "Search by author or title...",
+  "Search by author, title or conference name...": "Search by author, title or conference name...",
+  "Search by title or conference name...": "Search by title or conference name...",
   "Speakers": "Speakers",
   "Speakers list – Frontend Almanac": "Speakers list – Frontend Almanac",
   "Speakers list and Ukranian Frontend Conference videos": "Speakers list and Ukranian Frontend Conference videos",
