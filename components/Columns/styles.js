@@ -11,7 +11,7 @@ export const styles = {
   },
   "@media (max-width: 800px)": {
     columns: {
-      flexDirection: 'column'
+      flexDirection: 'column-reverse'
     },
     side: {
       width: '100%',
