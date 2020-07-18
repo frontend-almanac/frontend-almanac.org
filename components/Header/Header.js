@@ -40,6 +40,13 @@ function Header(props) {
           {props.t("Conferencies")}
         </a>
       </Link>
+      <a
+        href="https://github.com/frontend-almanac/frontend-almanac.org"
+        target='_blank'
+        className={props.classes.link}
+      >
+        {props.t("How to contribute")}
+      </a>
     </nav>
   );
 }
