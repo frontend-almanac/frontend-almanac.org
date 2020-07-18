@@ -2,6 +2,7 @@ import Link from 'next/link'
 import injectSheet from 'react-jss'
 import { styles } from './styles.js'
 import { withTranslation } from "../../i18n";
+import searchIcon from "!!raw-loader!../../static/search.svg";
 
 function Search(props) {
   let placeholder;
@@ -17,9 +18,18 @@ function Search(props) {
   }
   return (
     <div className={props.classes.searchWrapper}>
-      <input placeholder={placeholder} onChange={props.onSearch} className={props.classes.search} type="search" />
+      <span
+        className={props.classes.searchIcon}
+        dangerouslySetInnerHTML={{ __html: searchIcon }}
+      ></span>
+      <input
+        placeholder={placeholder}
+        onChange={props.onSearch}
+        className={props.classes.search}
+        type="search"
+      />
     </div>
-  )
+  );
 }
 
 export default withTranslation('common')(injectSheet(styles)(Search));
