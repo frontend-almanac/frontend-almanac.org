@@ -40,17 +40,6 @@ function Header(props) {
           {props.t("Conferencies")}
         </a>
       </Link>
-      <Link href="/about" as="/about">
-        <a
-          href="/about"
-          className={[
-            props.classes.link,
-            props.router.pathname === "/about" ? "active" : "",
-          ].join(" ")}
-        >
-          {props.t("About")}
-        </a>
-      </Link>
     </nav>
   );
 }

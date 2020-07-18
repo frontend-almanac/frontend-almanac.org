@@ -19,10 +19,6 @@ app.prepare().then(() => {
         return app.render(req, res, "/", { query: req.query });
       });
 
-      server.get("/about", (req, res) => {
-        return app.render(req, res, "/about", { id: req.params.id });
-      });
-
       server.get("/events", (req, res) => {
         return app.render(req, res, "/event-list", { id: req.params.id });
       });

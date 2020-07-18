@@ -1,7 +1,5 @@
 {
   "{{titleText}} – Frontend Almanac": "{{titleText}} – Frontend Almanac",
-  "About": "About",
-  "About – Frontend Almanac": "About – Frontend Almanac",
   "Conference list": "Conference list",
   "Conference list – Frontend Almanac": "Conference list – Frontend Almanac",
   "Conference videos {{name}}": "Conference videos {{name}}",
@@ -9,8 +7,6 @@
   "Conference videos {{name}}. Search by Title and Author. Statistics.": "Conference videos {{name}}. Search by Title and Author. Statistics.",
   "Conference videos {{name}}. Search by title, author. Statistics.": "Conference videos {{name}}. Search by title, author. Statistics.",
   "Conferencies": "Conferencies",
-  "CSV файл": "CSV файл",
-  "Frontend Almanac – это своего рода ретроспектива докладов конференций о фронтенде. Вся информация взята из открытых источников и легко ищется в Youtube и поисковых системах.": "Frontend Almanac – это своего рода ретроспектива докладов конференций о фронтенде. Вся информация взята из открытых источников и легко ищется в Youtube и поисковых системах.",
   "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog": "Frontend Conference list. Speaker list and Ukrainian Frontend Conference Videos catalog",
   "Main page": "Main page",
   "Main Page – Frontend Almanac": "Main Page – Frontend Almanac",
@@ -25,6 +21,5 @@
   "Speakers list – Frontend Almanac": "Speakers list – Frontend Almanac",
   "Speakers list and Ukranian Frontend Conference videos": "Speakers list and Ukranian Frontend Conference videos",
   "Speaks List – Frontend Almanac": "Speaks List – Frontend Almanac",
-  "Ukrainian Frontend Conference Videos catalog": "Ukrainian Frontend Conference Videos catalog",
-  "Все видео собраны в ": "Все видео собраны в "
+  "Ukrainian Frontend Conference Videos catalog": "Ukrainian Frontend Conference Videos catalog"
 }
