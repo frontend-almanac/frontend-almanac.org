@@ -1,4 +1,4 @@
-import csvToJSON from '../helpser/csv_to_json';
+import csvToJSON from '../helpser/csv-to-json';
 import fetch from 'cross-fetch'
 import cache from '../helpser/cache';
 import mergeConferenceInfo from '../helpser/mergeConferenceInfo';

@@ -5,9 +5,11 @@ import { withTranslation } from "../i18n";
 import Layout from '../components/MyLayout/MyLayout.js'
 import Search from '../components/Search/search.js';
 import SearchResult from '../components/SearchResult/search-result.js';
+import Conferencies from "../components/Conferencies/Conferencies";
 import videoList from '../services/videoList';
 import OpenGraph from '../components/OpenGraph/openGraph';
-
+import Columns from '../components/Columns/Columns';
+import getConferencies from '../helpser/get-conferencies';
 
 const speakerName = {
   fontSize: '18px',
@@ -58,7 +60,10 @@ class Home extends Component {
           />
         </Head>
         <Search onSearch={this.search.bind(this)}></Search>
-        <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
+        <Columns>
+          <Conferencies list={this.props.events} as='side' />
+          <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
+        </Columns>
       </Layout>
     );
   }
@@ -68,9 +73,12 @@ class Home extends Component {
     
     return {
       id,
-      list: res.sort((el) => {
-        return .5 - Math.random();
-      }).slice(0, 5)
+      list: res
+        .sort((el) => {
+          return 0.5 - Math.random();
+        })
+        .slice(0, 5),
+      events: getConferencies(res),
     };
   }
 }

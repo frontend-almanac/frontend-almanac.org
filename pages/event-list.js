@@ -7,7 +7,7 @@ import videoList from '../services/videoList'
 import Conferencies from '../components/Conferencies/Conferencies';
 import Title from '../components/Title/title';
 import OpenGraph from '../components/OpenGraph/openGraph';
-
+import getConferencies from '../helpser/get-conferencies';
 class Persons extends Component {
   render() {
     const { t } = this.props;
@@ -40,16 +40,10 @@ class Persons extends Component {
   static async getInitialProps({ query: { id, name } }) {
     const res = await videoList.fetch();
 
-    const events = res.reduce((acc, el) => {
-      if (acc.indexOf(el.conferenceName) === -1) {
-        acc.push(el.conferenceName);
-      }
-      return acc;
-    }, []);
     return {
       id,
-      events: events.sort()
-    }
+      events: getConferencies(res),
+    };
   }
 }
 
