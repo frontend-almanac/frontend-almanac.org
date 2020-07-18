@@ -1,12 +1,15 @@
 import { Component } from 'react';
 import Head from 'next/head';
+import { withTranslation } from "../i18n";
 
 import Layout from '../components/MyLayout/MyLayout.js'
 import Search from '../components/Search/search.js';
 import SearchResult from '../components/SearchResult/search-result.js';
+import Conferencies from "../components/Conferencies/Conferencies";
 import videoList from '../services/videoList';
 import OpenGraph from '../components/OpenGraph/openGraph';
-
+import Columns from '../components/Columns/Columns';
+import getConferencies from '../helpser/get-conferencies';
 
 const speakerName = {
   fontSize: '18px',
@@ -40,16 +43,29 @@ class Home extends Component {
     await videoList.fetch();
   }
   render() {
+    const { t } = this.props;
     const list = this.state.searchSuccess ? this.state.list : this.props.list;
-    return <Layout>
-      <Head>
-        <title>Главная – Фронтенд Альманах</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <OpenGraph url="https://frontend-almanac.org/" title="Главная – Фронтенд Альманах" description="Каталог ссылок на видео фронтенд конференций Украины" />
-      </Head>
-      <Search onSearch={this.search.bind(this)}></Search>
-      <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
-    </Layout>
+    return (
+      <Layout>
+        <Head>
+          <title>{t("Main Page – Frontend Almanac")}</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+          <OpenGraph
+            url="https://frontend-almanac.org/"
+            title={t("Main Page – Frontend Almanac")}
+            description={t("Ukrainian Frontend Conference Videos catalog")}
+          />
+        </Head>
+        <Search onSearch={this.search.bind(this)}></Search>
+        <Columns>
+          <Conferencies list={this.props.events} as='side' />
+          <SearchResult searchSuccess={this.state.searchSuccess} list={list} />
+        </Columns>
+      </Layout>
+    );
   }
 
   static async getInitialProps({ query: { id }}) {
@@ -57,11 +73,14 @@ class Home extends Component {
     
     return {
       id,
-      list: res.sort((el) => {
-        return .5 - Math.random();
-      }).slice(0, 5)
+      list: res
+        .sort((el) => {
+          return 0.5 - Math.random();
+        })
+        .slice(0, 5),
+      events: getConferencies(res),
     };
   }
 }
 
-export default Home
+export default withTranslation("common")(Home)

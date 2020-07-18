@@ -4,16 +4,38 @@ import { styles } from './styles.js'
 
 
 //1px solid #E9EEF2
-function Conferencies(props) {
+function Conferencies({ classes, list, as }) {
   return (
-    <section className={props.classes.listContainer}>
-      <ul className={props.classes.speakerList}>
-        {props.list.map((el, index) => <li className={props.classes.speakerItem} key={index}>
-          <Link href={{ pathname: '/event', query: { name: el } }} as={`/events/${el}`} ><a className={props.classes.speakerItemLink} href={`/events/${el}`}>{el}</a></Link>
-        </li>)}
+    <section className={classes.listContainer}>
+      <ul className={classes.speakerList}>
+        {list.map((el, index) => (
+          <li
+            className={
+              as !== "side" ? classes.speakerItem : classes.speakerItemRow
+            }
+            key={index}
+          >
+            <Link
+              href={{ pathname: "/event", query: { name: el.name } }}
+              as={`/events/${el.name}`}
+            >
+              <a
+                className={
+                  as !== "side"
+                    ? classes.speakerItemLink
+                    : classes.speakerItemLinkRow
+                }
+                style={{ borderColor: el.color }}
+                href={`/events/${el.name}`}
+              >
+                {el.name}
+              </a>
+            </Link>
+          </li>
+        ))}
       </ul>
     </section>
-  )
+  );
 }
 
 export default injectSheet(styles)(Conferencies);

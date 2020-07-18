@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "parse": "i18next 'pages/*.js' 'components/**/*.js'",
     "test": "jest --watch",
     "server": "node server.js",
     "dev": "node_modules/next/dist/bin/next",
@@ -27,13 +28,17 @@
     "cookie-parser": "^1.4.4",
     "cross-fetch": "^3.0.2",
     "express": "^4.16.4",
+    "i18next": "^19.6.1",
     "isomorphic-unfetch": "^3.0.0",
     "md5": "^2.2.1",
     "next": "^8.0.4-canary.29",
     "next-ga": "^2.3.4",
+    "next-i18next": "^4.5.0",
     "next-routes": "^1.4.2",
+    "raw-loader": "^4.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-i18next": "^11.7.0",
     "react-jss": "10.0.0-alpha.9"
   },
   "devDependencies": {
@@ -41,6 +46,7 @@
     "babel-jest": "24.1.0",
     "enzyme": "3.4.3",
     "enzyme-adapter-react-16": "1.2.0",
+    "i18next-parser": "^2.1.1",
     "jest": "24.1.0",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.4.2"
