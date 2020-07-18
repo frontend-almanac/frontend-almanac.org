@@ -31,7 +31,7 @@
     "i18next": "^19.6.1",
     "isomorphic-unfetch": "^3.0.0",
     "md5": "^2.2.1",
-    "next": "^8.0.4-canary.29",
+    "next": "^9.3.2",
     "next-ga": "^2.3.4",
     "next-i18next": "^4.5.0",
     "next-routes": "^1.4.2",
